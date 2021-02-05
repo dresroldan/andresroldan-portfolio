@@ -15,5 +15,5 @@ An updated and dynamic portfolio showcasing my resume and recent projects for po
 
 ## Wireframe
 
-![](src/assets/images/portfolio2021-wireframe.png)
-![](src/assets/images/portfolio2021-mobile.png)
+![](src/assets/images/portfolio-wireframe.png)
+
