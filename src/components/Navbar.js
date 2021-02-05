@@ -4,15 +4,15 @@ import '../styles/navbar.scss';
 const Navbar = () => {
   return (
     <div className="section" id="NAVBAR">
-      <div className="conatiner">
+      <div className="container">
         <div className="navbar-wrapper">
           <div role="button" className="name" tabIndex={0}>
-            Portfolio.
+            .
           </div>
           <div className="links-wrapper">
-            <button>Work</button>
-            <button>About</button>
-            <button>Contact</button>
+            <button>projects</button>
+            <button>about</button>
+            <button>contact</button>
           </div>
         </div>
       </div>

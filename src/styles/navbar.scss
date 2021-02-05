@@ -7,13 +7,14 @@
 
     .name {
         font-weight: 600;
+        color: white;
     }
 
     .links-wrapper {
         button {
             text-decoration: none;
             padding: 10px;
-            font-family: "Roboto";
+            font-family: "Fluro";
             opacity: 0.6;
             transition: all 0.2s ease-in-out;
             font-size: 12px;
@@ -21,6 +22,7 @@
             outline: none;
             border: 0px;
             cursor: pointer;
+            color: white;
 
             &:hover {
                 opacity: 1;
@@ -28,7 +30,7 @@
         }
 
         .active {
-            color: black;
+            color: white;
         }
     }
 
@@ -41,6 +43,7 @@
     width: 100vw;
     height: auto;
     overflow: hidden;
+    background-color: black;
 }
 
 
