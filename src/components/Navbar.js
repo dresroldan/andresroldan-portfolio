@@ -1,9 +1,9 @@
 import React from "react";
-import '../styles/navbar.scss';
+import "../styles/navbar.scss";
 
 const Navbar = () => {
   return (
-    <div className="section" id="NAVBAR">
+    <nav id="NAVBAR">
       <div className="container">
         <div className="navbar-wrapper">
           <div role="button" className="name" tabIndex={0}>
@@ -16,7 +16,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
