@@ -3,12 +3,13 @@ import "../styles/navbar.scss";
 
 const Navbar = () => {
   return (
-    <nav id="NAVBAR">
+    <nav id="navbar">
       <div className="container">
         <div className="navbar-wrapper">
           <div role="button" className="name" tabIndex={0}>
             .
           </div>
+
           <div className="links-wrapper">
             <button>projects</button>
             <button>about</button>

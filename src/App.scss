@@ -1,0 +1,40 @@
+// @import "./styles/include-media.scss";
+@import "./styles/navbar.scss";
+@import "./styles/header.scss";
+@import "./styles/about.scss";
+@import "./styles/skills.scss";
+
+* {
+    font-family: "Fluro";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+header {
+    width: 100vw;
+    min-height: 500px;
+}
+
+
+section {
+    width: 100vw;
+    min-height: 500px;
+    background-color: #FFFEF6;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

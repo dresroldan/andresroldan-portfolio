@@ -4,7 +4,7 @@ import "../styles/about.scss";
 const About = () => {
   return (
     <section id="about">
-<h2>_about</h2>
+      <h2>_about</h2>
     </section>
   );
 };

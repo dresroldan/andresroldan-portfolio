@@ -4,12 +4,9 @@ import "../styles/projects.scss";
 const Projects = () => {
   return (
     <section id="projects">
-      <div>
+ 
+<h2>projects</h2>
 
-
-<h2>_projects</h2>
-
-      </div>
     </section>
   );
 };

@@ -1,0 +1,42 @@
+// #skills {
+//     width: 100vw;
+//     min-height: 500px;
+//     overflow: hidden;
+//     background-color:#E1EBDE;
+//     padding-top: 90px;
+//     padding-bottom: 72px;
+// }
+
+
+.one {
+
+    max-width: 100px;
+
+}
+
+
+.one h2 {
+
+    color: black;
+    font-family: fluro;
+    font-size: 35px;
+    text-align: center;
+}
+
+// .row {
+//     width: 96%;
+//     max-width: 1020px;
+//     margin: 0 auto;
+// }
+
+// .row .nine{
+
+//     width: 75%;
+
+// }
+
+.skill-wrapper {
+
+    display: flex;
+    flex-direction: column;
+}

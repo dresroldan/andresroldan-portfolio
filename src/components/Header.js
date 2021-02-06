@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container">
-        <div className="intro">
+        
+        
+        <div className="header-wrapper">
           <h1>
             Hello,
             <br />
@@ -13,7 +15,7 @@ const Header = () => {
           </h1>
         </div>
 
-        <div class="quote-wrapper">
+        {/* <div class="quote-wrapper">
           <div class="text">
             <p>
               {" "}
@@ -22,7 +24,7 @@ const Header = () => {
               user experience.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );
