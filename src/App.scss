@@ -1,8 +1,8 @@
-// @import "./styles/include-media.scss";
-@import "./styles/navbar.scss";
-@import "./styles/header.scss";
-@import "./styles/about.scss";
-@import "./styles/skills.scss";
+@import "./styles/include-media.scss";
+// @import "./styles/navbar.scss";
+// @import "./styles/header.scss";
+// @import "./styles/about.scss";
+// @import "./styles/skills.scss";
 
 * {
     font-family: "Fluro";
@@ -14,6 +14,7 @@ body {
     padding: 0;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: #000;
 }
 
 
@@ -28,6 +29,8 @@ section {
     min-height: 500px;
     background-color: #FFFEF6;
     display: flex;
+    align-items: center;
+
 }
 
 .container {
@@ -37,4 +40,121 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+
+h1 {
+    color: #FFFEF2;
+
+
+
+    @include media(">=phone", "<lgphone") {
+        font-size: 40px;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        font-size: 55px;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        font-size: 75px;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        font-size: 95px;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        font-size: 120px;
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        font-size: 120px;
+    }
+
+    //   @include media(">=lgdesktop", "<4k") {
+    //     font-size: 185px;
+    //   }
+
+
+
+}
+
+h2 {
+    color: black;
+
+
+
+    @include media(">=phone", "<lgphone") {
+        font-size: 20px;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        font-size: 20px;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        font-size: 20px;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        font-size: 20px;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        font-size: 20px;
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        font-size: 20px;
+    }
+
+    //   @include media(">=lgdesktop", "<4k") {
+    //     font-size: 185px;
+    //   }
+
+
+
+}
+
+
+
+
+
+p {
+    color: black;
+
+
+
+    @include media(">=phone", "<lgphone") {
+        font-size: 20px;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        font-size: 20px;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        font-size: 20px;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        font-size: 20px;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        font-size: 20px;
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        font-size: 20px;
+    }
+
+    //   @include media(">=lgdesktop", "<4k") {
+    //     font-size: 185px;
+    //   }
+
+
+
 }

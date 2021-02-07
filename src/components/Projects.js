@@ -4,9 +4,17 @@ import "../styles/projects.scss";
 const Projects = () => {
   return (
     <section id="projects">
- 
-<h2>projects</h2>
+      <div className="container">
+        <div className="projects-title">
+          <h2>_projects</h2>
+        </div>
 
+        <div className="projects-section">
+          <div className="project-content">
+            <p>blah blah blah</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
