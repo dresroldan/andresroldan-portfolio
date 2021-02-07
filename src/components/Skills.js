@@ -5,7 +5,13 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="container">
+        
+        
+        
         <div className="skills-wrapper">
+          
+          
+          
           <div className="one">
             <h2>_skill-set</h2>
           </div>
@@ -18,7 +24,17 @@ const Skills = () => {
               Restful API - ES6 - React Hooks - JSON - Sequelize
             </p>
           </div>
+       
+       
+       
+       
         </div>
+      
+      
+      
+      
+      
+      
       </div>
     </section>
   );

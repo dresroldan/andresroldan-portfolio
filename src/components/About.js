@@ -20,6 +20,10 @@ const About = () => {
 
           <div className="image-wrapper"></div>
         </div>
+      
+      
+      
+      
       </div>
     </section>
   );

@@ -15,7 +15,7 @@ const Header = () => {
           </h1>
         </div>
 
-        {/* <div class="quote-wrapper">
+        <div class="quote-wrapper">
           <div class="text">
             <p>
               {" "}
@@ -24,7 +24,7 @@ const Header = () => {
               user experience.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </header>
   );
