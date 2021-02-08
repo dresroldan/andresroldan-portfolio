@@ -11,8 +11,12 @@ const Navbar = () => {
           </div>
 
           <div className="links-wrapper">
-            <button>projects</button>
-            <button>about</button>
+            <a href="#projects">
+              <button>projects</button>
+            </a>
+            <a href="#about">
+              <button>about</button>
+            </a>
             <button>contact</button>
           </div>
         </div>
