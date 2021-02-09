@@ -5,8 +5,9 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container">
-        
-        
+
+
+
         <div className="header-wrapper">
           <h1>
             Hello,
@@ -25,6 +26,12 @@ const Header = () => {
             </p>
           </div>
         </div>
+
+
+
+
+
+        
       </div>
     </header>
   );
