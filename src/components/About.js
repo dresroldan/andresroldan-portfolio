@@ -20,11 +20,11 @@ const About = () => {
             </p>
           </div>
 
+          <div className="line"></div>
+
           <div className="image-content">
             <img src={img}></img>
           </div>
-        
-        
         </div>
       </div>
     </section>

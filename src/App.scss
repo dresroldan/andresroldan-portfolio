@@ -7,7 +7,7 @@
 * {
     font-family: "Fluro";
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 header {
     width: 100vw;
-    
+
     @include media(">=phone", "<lgphone") {
         height: 500px;
     }
@@ -63,7 +63,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // justify-content: center;
+    justify-content: center;
 }
 
 
@@ -181,16 +181,16 @@ p {
 
 
 button {
-    
+
 
 
 
     @include media(">=phone", "<lgphone") {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     @include media(">=lgphone", "<tablet") {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     @include media(">=tablet", "<desktop") {
@@ -206,7 +206,7 @@ button {
     }
 
     @include media(">=mddesktop", "<=lgdesktop") {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     //   @include media(">=lgdesktop", "<4k") {
@@ -216,6 +216,3 @@ button {
 
 
 }
-
-
-

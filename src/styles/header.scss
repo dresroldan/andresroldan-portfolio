@@ -17,12 +17,12 @@ header {
     flex-direction: column;
     align-items: flex-start;
 
-    
+
 }
 
 .quote-wrapper {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     position: relative;
 }
 
@@ -35,13 +35,12 @@ header {
     background: radial-gradient(ellipse at center,
             rgba(0, 128, 172, 1) 0%,
             rgba(0, 128, 172, 1) 70%,
-            rgba(0, 128, 172, 0) 80.3%);
+            rgba(0, 128, 172, 0) 70.3%);
     height: 100%;
     width: 100%;
-    color: white;
+    color: #FFFEF6;
     position: relative;
     margin: 0;
-
 
 }
 
@@ -55,7 +54,7 @@ header {
     text-align: center;
     font-family: fluro;
 
-color: #FFFEF6
+    color: #FFFEF6
 }
 
 

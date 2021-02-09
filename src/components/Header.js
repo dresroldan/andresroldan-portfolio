@@ -12,7 +12,7 @@ const Header = () => {
           <h1>
             Hello,
             <br />
-            I'm Andres{" "}
+            I'm Andrés{" "}
           </h1>
         </div>
 
