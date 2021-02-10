@@ -10,3 +10,43 @@ h3 {
 
     color:white;
 }
+
+.navbar-wrapper {
+    width: 85vw;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .name {
+        font-weight: 600;
+        color: white;
+    }
+
+    .links-wrapper {
+        button {
+            text-decoration: none;
+            padding: 10px;
+            font-family: "Fluro";
+            opacity: 0.6;
+            transition: all 0.2s ease-in-out;
+            // font-size: 16px;
+            background-color: transparent;
+            outline: none;
+            border: 0px;
+            cursor: pointer;
+            color: #FFFEF6;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        .active {
+            color: white;
+        }
+    }
+
+
+
+}

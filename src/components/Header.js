@@ -4,10 +4,7 @@ import "../styles/header.scss";
 const Header = () => {
   return (
     <header id="home">
-      <div className="container">
-
-
-
+      <div className="container-1" id="head">
         <div className="header-wrapper">
           <h1>
             Hello,
@@ -26,12 +23,6 @@ const Header = () => {
             </p>
           </div>
         </div>
-
-
-
-
-
-        
       </div>
     </header>
   );
