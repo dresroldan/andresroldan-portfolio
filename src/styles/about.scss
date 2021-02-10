@@ -3,7 +3,7 @@
 .about-title {
 
     width: 85vw;
-    margin-top: 2vh;
+    // margin-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -18,7 +18,7 @@
 
 .about-section {
     width: 80vw;
-    margin-top: 10vh;
+    // margin-top: 10vh;
     display: flex;
     justify-content: space-between;
 
@@ -35,7 +35,7 @@
 
 
         @include media(">=phone", "<lgphone") {
-            width: 50px;
+            width: 300px;
         }
 
         @include media(">=lgphone", "<tablet") {
@@ -63,6 +63,8 @@
         //   @include media(">=lgdesktop", "<4k") {
         //     font-size: 185px;
         //   }
+
+
 
 
 
@@ -100,7 +102,7 @@
 
 
     @include media(">=phone", "<lgphone") {
-        width: 50px;
+        width: 300px;
     }
 
     @include media(">=lgphone", "<tablet") {
@@ -135,7 +137,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    // justify-content: flex-start;
+    justify-content: flex-start;
 
 
 
@@ -144,7 +146,7 @@
 
 
     @include media(">=phone", "<lgphone") {
-        width: 50px;
+        width: 300px;
     }
 
     @include media(">=lgphone", "<tablet") {
@@ -176,4 +178,28 @@
 
 
 
+}
+
+
+button {
+
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Fluro";
+    // opacity: 0.6;
+    transition: all 0.4s ease-in-out;
+    // font-size: 16px;
+    background-color: #FFFEF6;
+    outline: black;
+    border: 1px;
+    cursor: pointer;
+    color: black;
+    border-style: solid;
+    border-color: black;
+
+    &:hover {
+        opacity: 1;
+        background-color: black;
+        color: #FFFEF6;
+    }
 }

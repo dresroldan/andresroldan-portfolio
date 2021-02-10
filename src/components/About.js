@@ -25,6 +25,8 @@ const About = () => {
           <div className="image-content">
             <img src={img}></img>
           </div>
+
+          <button>_resume</button>
         </div>
       </div>
     </section>
