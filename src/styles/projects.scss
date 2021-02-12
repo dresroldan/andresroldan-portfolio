@@ -22,3 +22,27 @@
    
 
 }
+
+
+.project-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+ 
+    margin-top: 35px;
+
+  }
+
+
+  .projects-section{
+
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+   
+  }
