@@ -23,27 +23,27 @@ header {
     width: 100vw;
 
     @include media(">=phone", "<lgphone") {
-        height: 500px;
+        height: 750px;
     }
 
     @include media(">=lgphone", "<tablet") {
-        height: 900px;
+        height: 775px;
     }
 
     @include media(">=tablet", "<desktop") {
-        height: 900px;
+        height: 800px;
     }
 
     @include media(">=desktop", "<smdesktop") {
-        height: 900px;
+        height: 800px;
     }
 
     @include media(">=smdesktop", "<mddesktop") {
-        height: 900px;
+        height: 800px;
     }
 
     @include media(">=mddesktop", "<=lgdesktop") {
-        height: 900px;
+        height: 800px;
     }
 }
 
@@ -74,7 +74,7 @@ h1 {
 
 
     @include media(">=phone", "<lgphone") {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     @include media(">=lgphone", "<tablet") {
@@ -186,15 +186,15 @@ button {
 
 
     @include media(">=phone", "<lgphone") {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     @include media(">=lgphone", "<tablet") {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     @include media(">=tablet", "<desktop") {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     @include media(">=desktop", "<smdesktop") {
