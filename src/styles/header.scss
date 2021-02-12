@@ -2,6 +2,43 @@
 
 
 
+$bg: black;
+$text-color: #FFFEF6;
+$caret-color:#FFFEF6;
+$text-length: 11;
+$animation-time: 1.5s;
+
+h1 {
+  font-family: 'Fluro', Consolas, monospace;
+	// font-size: 4em;
+	color: $text-color;
+}
+// Typing style
+.typing {
+  position: relative;
+	&::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: $caret-color;
+    background: $bg;
+    animation: typing $animation-time steps($text-length) forwards,
+      caret 1s infinite;
+  }
+}
+// Animation
+@keyframes typing {
+	to { width: 0 }
+}
+@keyframes caret {
+	50% { color: transparent }
+}
+
+
+
+
+
 header {
 
     background-color: black;

@@ -1,10 +1,11 @@
 import React from "react";
-// import "../styles/projectcard.scss";
 import Card from "./ProjectCard";
 import "../styles/projects.scss";
 import project1 from "../assets/images/dermpalhome.png";
 import project2 from "../assets/images/picniqapp.png";
-import project3 from "../assets/images/weatherdashboard.png";
+import project3 from "../assets/images/habit1.png";
+
+import project4 from "../assets/images/weatherdashboard.png";
 
 const Projects = () => {
   return (
@@ -38,12 +39,13 @@ const Projects = () => {
               link="demo"
               linktwo="code"
             />
-            {/* <Card
-              img="https://picsum.photos/id/54/400/300"
-              title="What I learned from my visit to The Upside Down"
+            <Card
+              img={project4}
+              title="Weather Dashboard"
+              description=" A weather dashboard that displays weather conditions for multiple cities."
               link="demo"
               linktwo="code"
-            /> */}
+            />
           </div>
         </div>
       </div>

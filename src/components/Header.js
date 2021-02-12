@@ -6,7 +6,7 @@ const Header = () => {
     <header id="home">
       <div className="container-1" id="head">
         <div className="header-wrapper">
-          <h1>
+          <h1 className="typing">
             Hello,
             <br />
             I'm Andrés{" "}

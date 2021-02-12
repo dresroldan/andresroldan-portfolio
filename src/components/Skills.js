@@ -6,15 +6,15 @@ const Skills = () => {
     <section id="skills">
       <div className="container">
         
-      <div className="one">
+      
+        
+        <div className="skills-wrapp">
+          
+          
+          
+        <div className="one">
             <h2>_skill-set</h2>
           </div>
-        
-        <div className="skills-wrapper">
-          
-          
-          
-       
 
           <div className="two">
             <p>
