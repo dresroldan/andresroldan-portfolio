@@ -2,8 +2,9 @@ import React from "react";
 // import "../styles/projectcard.scss";
 import Card from "./ProjectCard";
 import "../styles/projects.scss";
-
-
+import project1 from "../assets/images/dermpalhome.png";
+import project2 from "../assets/images/picniqapp.png";
+import project3 from "../assets/images/weatherdashboard.png";
 
 const Projects = () => {
   return (
@@ -12,40 +13,38 @@ const Projects = () => {
         <div className="projects-section">
           <div className="projects-title">
             <h2>_projects</h2>
-</div>
-
-
+          </div>
 
           <div className="project-content">
             <Card
-              img="https://picsum.photos/id/54/400/300"
-              title="What I learned from my visit to The Upside Down"
+              img={project1}
+              title="DermPal"
+              description="Barcode scanning app designed to help users find skincare products that are compatible with their skin"
               link="demo"
               linktwo="code"
             />
 
             <Card
-              img="https://picsum.photos/id/54/400/300"
-              title="What I learned from my visit to The Upside Down"
+              img={project2}
+              title="Picniq"
+              description="A single search, location-based application, providing users with nearby parks and restaurants offering takeout/delivery."
               link="demo"
               linktwo="code"
             />
             <Card
+              img={project3}
+              title="Weather Dashboard"
+              description=" A weather dashboard that displays weather conditions for multiple cities."
+              link="demo"
+              linktwo="code"
+            />
+            {/* <Card
               img="https://picsum.photos/id/54/400/300"
               title="What I learned from my visit to The Upside Down"
               link="demo"
               linktwo="code"
-            />
-            <Card
-              img="https://picsum.photos/id/54/400/300"
-              title="What I learned from my visit to The Upside Down"
-              link="demo"
-              linktwo="code"
-            />
+            /> */}
           </div>
-        
-        
-        
         </div>
       </div>
     </section>
