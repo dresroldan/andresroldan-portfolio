@@ -10,7 +10,7 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "DermPal", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -21,7 +21,7 @@ export default {
 
     {
       id: 2, //DO NOT CHANGE THIS (Please)
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Picniq", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -31,7 +31,7 @@ export default {
 
     {
       id: 3, //DO NOT CHANGE THIS (Please)
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Habitude", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -40,7 +40,7 @@ export default {
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Weather Dashboard", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
