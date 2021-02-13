@@ -8,9 +8,9 @@ const Projects = () => {
     <section id="projects">
       <div className="container">
         <div className="work-wrapper">
-          {/* <div className="projects-title">
+          <div className="projects-title">
             <h2>_projects</h2>
-          </div> */}
+          </div>
 
           <div className="grid">
             {data.projects.map((project) => (
@@ -19,7 +19,8 @@ const Projects = () => {
                 heading={project.title}
                 paragraph={project.para}
                 imgUrl={project.imageSrc}
-                projectLink={project.url}
+                projectDemoLink={project.projectDemo}
+                projectGithubLink={project.projectGithub}
               ></Card>
             ))}
           </div>

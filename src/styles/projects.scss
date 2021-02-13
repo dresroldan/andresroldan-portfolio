@@ -3,7 +3,7 @@
 
 #projects {
   padding-top: 95px;
-  padding-bottom: 75px;
+  padding-bottom: 85px;
 
 
 
@@ -31,19 +31,25 @@
 
 .work-wrapper {
 
-  width: 90vw;
+  width: 85vw;
 
-  margin-top: 10vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin-top: 10vh;
   .grid {
 
     display: grid;
     margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+    grid-gap: 50px;
+
+
+  
+  //   div:nth-of-type(even) {
+  //     grid-column: 2;
+  // }
 
 
     @include media(">=phone", "<lgphone") {

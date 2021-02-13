@@ -3,49 +3,50 @@ import project2 from "./assets/images/picniqapp.png";
 import project3 from "./assets/images/habit1.png";
 import project4 from "./assets/images/weatherdashboard.png";
 
-
-
-
 export default {
   projects: [
     {
-      id: 1, //DO NOT CHANGE THIS (Please)
-      title: "DermPal", //Project Title - Add Your Project Title Here
+      id: 1,
+      title: "DermPal",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+
       imageSrc: project1,
 
-      url: "http://chetanverma.com/",
+      projectDemo: "https://dermpal1.herokuapp.com/",
+      projectGithub: "https://github.com/Bbeyenene/dermpal1",
     },
 
     {
-      id: 2, //DO NOT CHANGE THIS (Please)
-      title: "Picniq", //Project Title - Add Your Project Title Here
+      id: 2,
+      title: "Picniq",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+
       imageSrc: project2,
-      url: "http://chetanverma.com/",
+      projectDemo: "https://jpbrickhouse.github.io/Picniq/",
+      projectGithub: "https://github.com/JPBrickhouse/Picniq",
     },
 
     {
-      id: 3, //DO NOT CHANGE THIS (Please)
-      title: "Habitude", //Project Title - Add Your Project Title Here
+      id: 3,
+      title: "Habitude",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+
       imageSrc: project3,
-      url: "http://chetanverma.com/",
+      projectDemo: "https://habitudeapp.herokuapp.com/",
+      projectGithub: "https://github.com/carolinetwyman/Habitude",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)
-      title: "Weather Dashboard", //Project Title - Add Your Project Title Here
+      id: 4,
+      title: "Weather Dashboard",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+
       imageSrc: project4,
-      url: "http://chetanverma.com/",
+      projectDemo: "https://dresroldan.github.io/weather-dashboard/",
+      projectGithub: "https://github.com/dresroldan/weather-dashboard",
     },
   ],
 };

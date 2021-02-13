@@ -1,7 +1,13 @@
 import React from "react";
 import "../styles/projectcard.scss";
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({
+  heading,
+  paragraph,
+  imgUrl,
+  projectDemoLink,
+  projectGithubLink,
+}) => {
   return (
     <div
       className="card"
@@ -14,12 +20,21 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         <p className="text2">{paragraph}</p>
 
         <a
-          href={projectLink ? projectLink : "#"}
+          href={projectDemoLink ? projectDemoLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
         >
-          demo
+          <button>demo</button>
+        </a>
+
+        <a
+          href={projectGithubLink ? projectGithubLink : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          <button>code</button>
         </a>
       </div>
     </div>
