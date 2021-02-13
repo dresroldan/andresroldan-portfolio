@@ -6,14 +6,11 @@ const Skills = () => {
     <section id="skills">
       <div className="container">
         
-      
         
-        <div className="skills-wrapp">
-          
-          
-          
-        <div className="one">
-            <h2>_skill-set</h2>
+        
+        <div className="skills-wrap">
+          <div className="one">
+            <h2>skill-set</h2>
           </div>
 
           <div className="two">
@@ -24,13 +21,7 @@ const Skills = () => {
               Restful API - ES6 - React Hooks - JSON - Sequelize
             </p>
           </div>
-       
-       
-       
-       
         </div>
-      
-      
       
       
       

@@ -1,13 +1,16 @@
+@import "./include-media.scss";
 
-#skills{
 
-background-color: #BFCCB8;
-padding-top: 95px;
-padding-bottom:75px;
+#skills {
+
+    background-color: #BFCCB8;
+    padding-top: 95px;
+    padding-bottom: 75px;
 }
 
-.one{
+.one {
     align-self: center;
+    margin-bottom: 20px;
 }
 
 
@@ -18,27 +21,55 @@ padding-bottom:75px;
     // display: flex;
     // flex-direction: column;
     // align-items: center;
-font-family: fluro bold outline;
-font-size: 60px;
+    font-family: fluro bold outline;
+    font-size: 60px;
 
 }
 
 
 
-.skill-wrapp{
+.skills-wrap {
 
     display: flex;
     flex-wrap: wrap;
 
+    justify-content: space-evenly;
+    width: 100%;
 
 
 
-}
-
-
-.two{
-
-max-width: 250px;
 
 }
 
+
+.two {
+
+
+
+    @include media(">=phone", "<lgphone") {
+        width: 80%;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        width: 80%;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        width: 50%;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        width: 50%;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        width: 50%;
+
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        width: 40%;
+
+    }
+
+}

@@ -34,7 +34,7 @@ const Projects = () => {
             />
             <Card
               img={project3}
-              title="Weather Dashboard"
+              title="Habitude"
               description=" A weather dashboard that displays weather conditions for multiple cities."
               link="demo"
               linktwo="code"
