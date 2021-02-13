@@ -1,27 +1,29 @@
 import React from "react";
 import "../styles/projectcard.scss";
 
-class Card extends React.Component {
-  render() {
-    return (
-      <div className="card">
-        <img src={this.props.img} />
-        <div className="card-body">
-          <h2>{this.props.title}</h2>
-          <p>{this.props.description}</p>
+const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+  return (
+    <div
+      className="card"
+      style={{
+        backgroundImage: "url(" + imgUrl + ")",
+      }}
+    >
+      <div className="content">
+        <h3 className="header">{heading}</h3>
+        <p className="text2">{paragraph}</p>
 
-          <button>{this.props.link}</button>
-          <button>{this.props.linktwo}</button>
-        </div>
+        <a
+          href={projectLink ? projectLink : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          demo
+        </a>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Card;
-
-//----------
-//Final render
-//----------
-
-//   ReactDOM.render(<App />, document.querySelector('#app'))
