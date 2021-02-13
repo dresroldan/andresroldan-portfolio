@@ -5,6 +5,11 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container-1" id="head">
+
+
+
+        <div className="header-content">
+
         <div className="header-wrapper">
           <h1 className="typing">
             Hello,
@@ -23,6 +28,10 @@ const Header = () => {
             </p>
           </div>
         </div>
+
+
+        </div>
+
       </div>
     </header>
   );
