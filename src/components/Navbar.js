@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/navbar.scss";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -11,13 +12,21 @@ const Navbar = () => {
           </div>
 
           <div className="links-wrapper">
-            <a href="#projects">
-              <button>projects</button>
-            </a>
-            <a href="#about">
-              <button>about</button>
-            </a>
+      
+            <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
+            <button>projects</button>
+              </Link>
+          
+              <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
+            <button>about</button>
+              </Link>
+
+
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
             <button>contact</button>
+              </Link>
+
+          
           </div>
         </div>
       </div>

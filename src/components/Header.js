@@ -5,20 +5,22 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container-1" id="head">
-
-
-
         <div className="header-content">
+          <div className="header-wrapper">
+            <h1 className="typing">
+              Hello,
+              <br />
+              I'm Andrés{" "}
+            </h1>
+            <p>
+              {" "}
+              I'm a developer who focuses on building web applications that
+              showcase a passion for visual identity, interactive design, and
+              user experience.
+            </p>
+          </div>
 
-        <div className="header-wrapper">
-          <h1 className="typing">
-            Hello,
-            <br />
-            I'm Andrés{" "}
-          </h1>
-        </div>
-
-        {/* <div class="quote-wrapper">
+          {/* <div class="quote-wrapper">
           <div class="text">
             <p>
               {" "}
@@ -31,7 +33,6 @@ const Header = () => {
 
 
         </div>
-
       </div>
     </header>
   );
