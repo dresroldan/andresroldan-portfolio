@@ -65,14 +65,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-margin-bottom: 50px;
+
 p{
 
     height: 100%;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.25;
     padding: 0;
-    text-align: center;
+    width: 250px;
     font-family: fluro; 
     color:#FFFEF6;
 }
@@ -158,5 +158,18 @@ p{
 
 .header-content{
 
-    margin-top: 70px;
+    margin-top: 50px;
 }
+
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #BFCCB8;
+    line-height:45px;
+    text-align:center;
+    font-size: 30px;
+    color:#BFCCB8;
+    margin-top: 50px;
+  }
