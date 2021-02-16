@@ -57,11 +57,11 @@
     }
 
     @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr ;
     }
 
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr ;
     }
 
     @include media(">=desktop", "<smdesktop") {
