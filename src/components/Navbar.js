@@ -22,9 +22,13 @@ const Navbar = () => {
               </Link>
 
 
-              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
-            <button>contact</button>
-              </Link>
+         <a href="mailto:dresroldan@gmail.com">
+         <button>contact</button>
+
+
+         </a>
+            
+              
 
           
           </div>

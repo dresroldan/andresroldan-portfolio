@@ -9,6 +9,7 @@ const Skills = () => {
         
         
         <div className="skills-wrapper">
+          
           <div className="skills-title">
             <h2>skill-set</h2>
           </div>
