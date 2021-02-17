@@ -10,7 +10,7 @@
 
 }
 
-body {
+body { 
     margin: 0;
     padding: 0;
     overflow-y: scroll;
@@ -27,19 +27,19 @@ header {
     }
 
     @include media(">=lgphone", "<tablet") {
-        height: 775px;
+        height: 850px;
     }
 
     @include media(">=tablet", "<desktop") {
-        height: 800px;
+        height: 850px;
     }
 
     @include media(">=desktop", "<smdesktop") {
-        height: 800px;
+        height: 850px;
     }
 
     @include media(">=smdesktop", "<mddesktop") {
-        height: 800px;
+        height: 900px;
     }
 
     @include media(">=mddesktop", "<=lgdesktop") {
@@ -186,11 +186,11 @@ button {
 
 
     @include media(">=phone", "<lgphone") {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     @include media(">=lgphone", "<tablet") {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     @include media(">=tablet", "<desktop") {

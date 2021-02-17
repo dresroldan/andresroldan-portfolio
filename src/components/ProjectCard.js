@@ -16,6 +16,9 @@ const Card = ({
       }}
     >
       <div className="content">
+        <div className="content-wrapper">
+
+
         <h3 className="header">{heading}</h3>
         <p className="text2">{paragraph}</p>
 
@@ -36,6 +39,9 @@ const Card = ({
         >
           <button>code</button>
         </a>
+
+        </div>
+
       </div>
     </div>
   );

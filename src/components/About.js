@@ -6,11 +6,11 @@ const About = () => {
   return (
     <section id="about">
       <div className="container">
-        <div className="about-section">
+        <div className="about-wrapper">
           <div className="about-title">
             <h2>_about</h2>
           </div>
-          <div className="about-content">
+          <div className="about-heading">
             <p>
               Creative and dependable front-end web developer with an
               outstanding customer service record, and superb work ethic. Fast

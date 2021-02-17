@@ -2,45 +2,23 @@
 
 
 
-
-
-
-
-
-
-#about {
-
-    padding-top: 95px;
-    padding-bottom: 85px
-}
-
-.about-title {
-
+.about-wrapper {
     width: 85vw;
-    // margin-top: 2vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-
-
-
-
-}
-
-.about-section {
-    width: 85vw;
-
     display: flex;
     justify-content: space-between;
-
     flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 75px;
+    margin-bottom: 75px;
 
+    .about-title {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-
-    .about-content {
+    .about-heading {
 
 
         color: black;
@@ -48,15 +26,15 @@
         margin-top: 35px;
 
         @include media(">=phone", "<lgphone") {
-            width: 300px;
+            width: 85vw;
         }
 
         @include media(">=lgphone", "<tablet") {
-            width: 100%;
+            width: 85vw;
         }
 
         @include media(">=tablet", "<desktop") {
-            width: 100%;
+            width: 85vw;
         }
 
         @include media(">=desktop", "<smdesktop") {
@@ -78,26 +56,17 @@
         //   }
 
 
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
 
 .line {
 
@@ -106,35 +75,7 @@
         #000;
     height: 1px;
     border: none;
-    max-width: 100%;
-    // margin-bottom: 50px;
-
-
-    @include media(">=phone", "<lgphone") {
-        width: 300px;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-        width: 100%;
-    }
-
-    @include media(">=tablet", "<desktop") {
-        width: 100%;
-    }
-
-    @include media(">=desktop", "<smdesktop") {
-        width: 50%;
-    }
-
-    @include media(">=smdesktop", "<mddesktop") {
-        width: 50%;
-    }
-
-    @include media(">=mddesktop", "<=lgdesktop") {
-        width: 50%;
-    }
-
-
+    width: 100%;
 }
 
 .image-content {
@@ -147,7 +88,7 @@
 
 
 
-
+}
 
 
 

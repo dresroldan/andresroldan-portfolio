@@ -8,12 +8,12 @@ const Skills = () => {
         
         
         
-        <div className="skills-wrap">
-          <div className="one">
+        <div className="skills-wrapper">
+          <div className="skills-title">
             <h2>skill-set</h2>
           </div>
 
-          <div className="two">
+          <div className="skills-list">
             <p>
               Node.Js. - Express - Javascript - jQuery - React - JSX - GIT -
               GitHub - MongoDB - MySQL - Mongoose - Handlebars - HTML5 - CSS3 -
