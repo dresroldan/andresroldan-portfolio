@@ -8,8 +8,8 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    padding-top: 70px;
+    padding-bottom: 95px;
 
     .about-title {
         width: 85vw;
@@ -18,58 +18,38 @@
         align-items: flex-start;
     }
 
+
+
+
+    }
+
+
+
+
+
     .about-heading {
 
 
         color: black;
-
+width: 85vw;
         margin-top: 35px;
 
-        @include media(">=phone", "<lgphone") {
-            width: 85vw;
-        }
+ 
+        
+        
+    
 
-        @include media(">=lgphone", "<tablet") {
-            width: 85vw;
-        }
-
-        @include media(">=tablet", "<desktop") {
-            width: 85vw;
-        }
-
-        @include media(">=desktop", "<smdesktop") {
-            width: 50%;
-        }
-
-        @include media(">=smdesktop", "<mddesktop") {
-            width: 50%;
-
-        }
-
-        @include media(">=mddesktop", "<=lgdesktop") {
-            width: 50%;
-
-        }
-
-        //   @include media(">=lgdesktop", "<4k") {
-        //     font-size: 185px;
-        //   }
-
+        
+     
+        
+        
+ 
 
 }
 
 
-
-
-
-
-
-
-
-
-
 .line {
-
+    
     color: #000;
     background-color:
         #000;
@@ -85,47 +65,11 @@
     justify-content: center;
     overflow: hidden;
     // justify-content: flex-start;
-
-
-
+    
+    
+    
 }
 
-
-
-    @include media(">=phone", "<lgphone") {
-        width: 300px;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-        width: 100%;
-    }
-
-    @include media(">=tablet", "<desktop") {
-        width: 100%;
-    }
-
-    @include media(">=desktop", "<smdesktop") {
-        width: 50%;
-    }
-
-    @include media(">=smdesktop", "<mddesktop") {
-        width: 50%;
-    }
-
-    @include media(">=mddesktop", "<=lgdesktop") {
-        width: 50%;
-    }
-
-    //   @include media(">=lgdesktop", "<4k") {
-    //     font-size: 185px;
-    //   }
-
-
-
-
-
-
-}
 
 button {
 
@@ -157,32 +101,132 @@ button {
 
 }
 
-.image-content img {
 
-    width: 300px;
-
-}
 
 
 
 .image-content {
 
-    margin-top: 20px;
+justify-content: center;
+
+
+    @include media(">=phone", "<lgphone") {
+        width: 100%;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        width: 50%;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        width: 50%;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        width: 50%;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        width: 40%;
+
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        width: 40%;
+
+    }
+  
 }
 
 
 .contact-info {
-    width: 300px;
+
+    
+    align-items: center;
+    width: 85vw;
+    padding-top: 70px;
+    padding-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+
+    @include media(">=phone", "<lgphone") {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        // flex-direction: column;
+        align-items: center;
+    }
 }
 
-.contact-info .details {
-    font-size: 16px;
+
+
+
+.link1{
+
+   
+    @include media(">=phone", "<lgphone") {
+        width: 100%;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        width: 50%;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        width: 50%;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        width: 50%;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        width: 40%;
+
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        width: 40%;
+
+    }
+
+}
+
+
+
+.links {
+    
+    justify-content: center;
+   
+    display: grid;
+
+
+
+button{
+
+margin-bottom: 10px;
+
+}
 
 
 
 }
 
+    
 
-.details p {
+
+    // ICONS
+    
+    
+
+.fa-ul {
+    
     line-height: 30px;
 }

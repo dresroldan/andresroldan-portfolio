@@ -7,37 +7,75 @@ const About = () => {
     <section id="about">
       <div className="container">
         <div className="about-wrapper">
-          <div className="about-title">
+          {/* <div className="about-title"> */}
             <h2>_about</h2>
-          </div>
-          <div className="about-heading">
+          {/* </div> */}
+
+          {/* <div className="about-heading"> */}
             <p>
-              Creative and dependable front-end web developer with an
-              outstanding customer service record, and superb work ethic. Fast
-              learner, hard worker, and team player who is proficient in an
-              array of scripting languages and multimedia web tools.
+              Front end developer with a background in music production and an
+              eye for design. Recent certificate in full stack development from
+              Northwestern University in Chicago, IL with acquired skills in
+              HTML, CSS, JavaScript, React.js and responsive web design. Proven
+              to work well in teams and independently, my focus is to create
+              applications that improve the lives of others through user
+              experience.
             </p>
-          </div>
+          {/* </div> */}
 
           <div className="line"></div>
 
-          <div className="image-content">
-            <img src={img}></img>
-          </div>
-
           <div className="contact-info">
-            <p className="details">
-              <span> Andrés Roldán</span>
-              <br />
-              <span>Chicago, IL</span>
-              <br />
-              <span> 779.207.8144</span>
-              <br />
-              <span>dresroldan@gmail.com</span>
-              <br />
-            </p>
+            
+            
+            <div className="image-content">
+              <img src={img}></img>
+            </div>
 
-            <button>_resume</button>
+
+<div className="link1">
+
+<div className="links">
+              <ul className="fa-ul">
+                <li>
+                  <span className="fa-li">
+                    <i className="fas fa-user"></i>
+                  </span>
+                  Andrés Roldán
+                </li>
+                <li>
+                  <span className="fa-li">
+                    <i className="fas fa-envelope"></i>
+                  </span>
+                  dresroldan@gmail.com
+                </li>
+                <li>
+                  <span className="fa-li">
+                    <i className="fas fa-globe"></i>
+                  </span>
+                  Chicago, IL
+                </li>
+                <li>
+                  <span className="fa-li">
+                    <i className="fas fa-phone"></i>
+                  </span>
+                  779.207.8144
+                </li>
+              </ul>
+
+              <button>_resume</button>
+              <button>_github</button>
+              <button>_linkedin</button>
+            </div>
+
+
+</div>
+
+           
+
+
+
+
           </div>
         </div>
       </div>

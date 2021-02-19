@@ -198,7 +198,7 @@ button {
     }
 
     @include media(">=desktop", "<smdesktop") {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     @include media(">=smdesktop", "<mddesktop") {
