@@ -94,6 +94,35 @@ button {
     }
 }
 
+
+
+.button{
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Fluro";
+    // opacity: 0.6;
+    transition: all 0.5s ease-in-out;
+    // font-size: 16px;
+    background-color: #FFFEF6;
+    outline: black;
+    border: 1px;
+    cursor: pointer;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+
+    &:hover {
+        opacity: 1;
+        background-color: black;
+        color: #FFFEF6;
+    }
+
+}
+
+
+
+
 .name p {
 
 
