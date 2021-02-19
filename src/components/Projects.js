@@ -18,6 +18,7 @@ const Projects = () => {
                 key={project.id}
                 heading={project.title}
                 paragraph={project.para}
+tools={project.tools}
                 imgUrl={project.imageSrc}
                 projectDemoLink={project.projectDemo}
                 projectGithubLink={project.projectGithub}
@@ -27,7 +28,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-  );
+  );  
 };
 
 export default Projects;

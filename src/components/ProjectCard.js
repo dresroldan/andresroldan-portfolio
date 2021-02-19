@@ -7,6 +7,7 @@ const Card = ({
   imgUrl,
   projectDemoLink,
   projectGithubLink,
+  tools
 }) => {
   return (
     <div
@@ -21,7 +22,7 @@ const Card = ({
 
         <h3 className="header">{heading}</h3>
         <p className="text2">{paragraph}</p>
-
+        <p className="text2">{tools}</p>
         <a
           href={projectDemoLink ? projectDemoLink : "#"}
           target="_blank"

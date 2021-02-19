@@ -12,7 +12,7 @@ const About = () => {
           <h2>_about</h2>
           {/* </div> */}
 
-          {/* <div className="about-heading"> */}
+          <div className="about-heading">
           <p>
             Front end developer with a background in music production and an eye
             for design. Recent certificate in full stack development from
@@ -21,11 +21,19 @@ const About = () => {
             well in teams and independently, my focus is to create applications
             that improve the lives of others through user experience.
           </p>
-          {/* </div> */}
+          </div>
 
-          <div className="line"></div>
+          {/* <div className="line"></div> */}
+
+
+
+
+
 
           <div className="contact-info">
+           
+           
+           
             <div className="image-content">
               <img src={img}></img>
             </div>
