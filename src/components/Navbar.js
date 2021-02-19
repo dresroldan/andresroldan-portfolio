@@ -22,11 +22,11 @@ const Navbar = () => {
               </Link>
 
 
-         <a href="mailto:dresroldan@gmail.com">
+              <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
          <button>contact</button>
+         </Link>
 
-
-         </a>
+    
             
               
 

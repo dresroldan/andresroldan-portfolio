@@ -49,6 +49,13 @@ export default {
       projectGithub: "https://github.com/dresroldan/weather-dashboard",
     },
   ]
+
+,
+
+skillSet: "HTML5, Javascript, ES6, jQuery, CSS, SASS, Bootstrap, Material UI, React JS, JSX, Mobile Responsive Design - MySQL, ExpressJS, MongoDB, JSON, REST APIs, AJAX - NPM, Testing, Handlebars, GIT, Github, Gitlab, Heroku, Postman, Figma, Trello, Google Workspace"
+
+
+
 };
 
 
