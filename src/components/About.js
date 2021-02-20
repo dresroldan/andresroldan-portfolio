@@ -8,9 +8,9 @@ const About = () => {
     <section id="about">
       <div className="container">
         <div className="about-wrapper">
-          {/* <div className="about-title"> */}
+          <div className="about-title">
           <h2>_about</h2>
-          {/* </div> */}
+          </div>
 
           <div className="about-heading">
           <p>

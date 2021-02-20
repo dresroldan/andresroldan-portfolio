@@ -1,7 +1,3 @@
-
-
-
-
 footer {
     width: 100vw;
     min-height: 100px;
@@ -9,48 +5,24 @@ footer {
     background-color: black;
 }
 
+.links-footer {
 
-h3 {
 
-    color:white;
+    width: 85vw;
 }
 
-.navbar-wrapper {
-    width: 85vw;
-    margin-top: 10vh;
+
+
+.links-wrapper {
+
+
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 
-    .name {
-        font-weight: 600;
-        color: white;
+
+    img {
+
+        margin-right: 20px;
+
     }
-
-    .links-wrapper {
-        button {
-            text-decoration: none;
-            padding: 10px;
-            font-family: "Fluro";
-            opacity: 0.6;
-            transition: all 0.2s ease-in-out;
-            // font-size: 16px;
-            background-color: transparent;
-            outline: none;
-            border: 0px;
-            cursor: pointer;
-            color: #FFFEF6;
-
-            &:hover {
-                opacity: 1;
-            }
-        }
-
-        .active {
-            color: white;
-        }
-    }
-
-
-
 }

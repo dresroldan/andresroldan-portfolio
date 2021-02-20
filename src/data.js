@@ -9,7 +9,7 @@ export default {
       id: 1,
       title: "DermPal",
       para:
-        "DermPal is a barcode scanning app that is designed to help the user find skincare products that are compatible with their skin.",
+        "A barcode scanning app that is designed to help the user find skincare products that are compatible with their skin.",
       tools: "Utilized: HTML5, CSS, jQuery, Moment.js, Open Weather API",
       imageSrc: project1,
 
@@ -31,9 +31,9 @@ export default {
     {
       id: 3,
       title: "Habitude",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
-      tools: "Utilized: HTML5, CSS, jQuery, Moment.js, Open Weather API",
+      para: "A tracker application to help monitor and form daily habits",
+      tools:
+        "Utilized: HTML5, CSS, JavaScript, Handlebars, Chart.js, Google Analytics",
       imageSrc: project3,
       projectDemo: "https://habitudeapp.herokuapp.com/",
       projectGithub: "https://github.com/carolinetwyman/Habitude",
@@ -48,19 +48,11 @@ export default {
       projectDemo: "https://dresroldan.github.io/weather-dashboard/",
       projectGithub: "https://github.com/dresroldan/weather-dashboard",
     },
-  ]
+  ],
 
-,
-
-skillSet: "HTML5, Javascript, ES6, jQuery, CSS, SASS, Bootstrap, Material UI, React JS, JSX, Mobile Responsive Design - MySQL, ExpressJS, MongoDB, JSON, REST APIs, AJAX - NPM, Testing, Handlebars, GIT, Github, Gitlab, Heroku, Postman, Figma, Trello, Google Workspace"
-
-
-
+  skillSet:
+    "HTML5, Javascript, ES6, jQuery, CSS, SASS, Bootstrap, Material UI, React JS, JSX, Mobile Responsive Design - MySQL, ExpressJS, MongoDB, JSON, REST APIs, AJAX - NPM, Testing, Handlebars, GIT, Github, Gitlab, Heroku, Postman, Figma, Trello, Google Workspace",
 };
-
-
-
-
 
 // {
 //   id: 4,

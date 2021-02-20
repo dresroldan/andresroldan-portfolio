@@ -4,21 +4,33 @@ import "../styles/footer.scss";
 const Footer = () => {
   return (
     <footer>
- 
+<div className="container">
+<div className="links-footer">
 
-      <div className="navbar-wrapper">
+
+<div className="links-wrapper">
+          
+          <div className="icons">
+
+          <img src="https://img.icons8.com/ios-glyphs/40/FFFEF6/linkedin-circled--v1.png"/>     
+          
+          <img src="https://img.icons8.com/material-sharp/40/FFFEF6/github.png"/> 
 
 
-          <div className="links-wrapper">
-            <a href="#projects">
-              <button>linkedin</button>
-            </a>
-            <a href="#about">
-              <button>github</button>
-            </a>
-            <button>contact</button>
           </div>
-        </div>
+                 
+          
+          </div>
+
+
+</div>
+
+
+
+</div>
+
+    
+
     </footer>
   );
 };
