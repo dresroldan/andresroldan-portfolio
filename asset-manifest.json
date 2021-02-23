@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/andresroldan-portfolio/static/css/main.5cecd650.chunk.css",
-    "main.js": "/andresroldan-portfolio/static/js/main.cfd40eaf.chunk.js",
-    "main.js.map": "/andresroldan-portfolio/static/js/main.cfd40eaf.chunk.js.map",
-    "runtime-main.js": "/andresroldan-portfolio/static/js/runtime-main.29a7baec.js",
-    "runtime-main.js.map": "/andresroldan-portfolio/static/js/runtime-main.29a7baec.js.map",
-    "static/js/2.b7870e9a.chunk.js": "/andresroldan-portfolio/static/js/2.b7870e9a.chunk.js",
-    "static/js/2.b7870e9a.chunk.js.map": "/andresroldan-portfolio/static/js/2.b7870e9a.chunk.js.map",
-    "index.html": "/andresroldan-portfolio/index.html",
-    "static/css/main.5cecd650.chunk.css.map": "/andresroldan-portfolio/static/css/main.5cecd650.chunk.css.map",
-    "static/js/2.b7870e9a.chunk.js.LICENSE.txt": "/andresroldan-portfolio/static/js/2.b7870e9a.chunk.js.LICENSE.txt",
-    "static/media/dermpalhome.f9a89c84.png": "/andresroldan-portfolio/static/media/dermpalhome.f9a89c84.png",
-    "static/media/habit1.b8e2117e.png": "/andresroldan-portfolio/static/media/habit1.b8e2117e.png",
-    "static/media/picniqapp.ba74ddb0.png": "/andresroldan-portfolio/static/media/picniqapp.ba74ddb0.png",
-    "static/media/weatherdashboard.69373e13.png": "/andresroldan-portfolio/static/media/weatherdashboard.69373e13.png"
+    "main.css": "/static/css/main.ca88904f.chunk.css",
+    "main.js": "/static/js/main.5780cc2e.chunk.js",
+    "main.js.map": "/static/js/main.5780cc2e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4ba10c9b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4ba10c9b.js.map",
+    "static/js/2.b7870e9a.chunk.js": "/static/js/2.b7870e9a.chunk.js",
+    "static/js/2.b7870e9a.chunk.js.map": "/static/js/2.b7870e9a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ca88904f.chunk.css.map": "/static/css/main.ca88904f.chunk.css.map",
+    "static/js/2.b7870e9a.chunk.js.LICENSE.txt": "/static/js/2.b7870e9a.chunk.js.LICENSE.txt",
+    "static/media/dermpalhome.f9a89c84.png": "/static/media/dermpalhome.f9a89c84.png",
+    "static/media/habit1.b8e2117e.png": "/static/media/habit1.b8e2117e.png",
+    "static/media/picniqapp.ba74ddb0.png": "/static/media/picniqapp.ba74ddb0.png",
+    "static/media/weatherdashboard.69373e13.png": "/static/media/weatherdashboard.69373e13.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.29a7baec.js",
+    "static/js/runtime-main.4ba10c9b.js",
     "static/js/2.b7870e9a.chunk.js",
-    "static/css/main.5cecd650.chunk.css",
-    "static/js/main.cfd40eaf.chunk.js"
+    "static/css/main.ca88904f.chunk.css",
+    "static/js/main.5780cc2e.chunk.js"
   ]
 }
