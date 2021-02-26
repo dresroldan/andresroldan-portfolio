@@ -1,6 +1,6 @@
 footer {
     width: 100vw;
-    min-height: 100px;
+    min-height: 250px;
     overflow: hidden;
     background-color: black;
 }
@@ -17,12 +17,52 @@ footer {
 
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+   
+    margin-top: 20px;
 
+    .icons{
+
+        align-self: center;
+    
+    }
+
+
+
+
+
+
+a {
 
     img {
 
-        margin-right: 20px;
+        // margin-right: 20px;
+        
+        transform: rotate(180deg);
 
     }
+
+
 }
+   
+ 
+}
+
+h3{
+
+    color:#FFFEF6;
+    font-family: "fluro light";
+    font-size: 16px;
+    }
+
+
+    .line {
+    
+        color: white;
+        background-color:
+           white;
+        height: 1px;
+        border: none;
+        width: 80%;
+    }
+    
