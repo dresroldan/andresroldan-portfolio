@@ -8,9 +8,7 @@ const Projects = () => {
     <section id="projects">
       <div className="container">
         <div className="work-wrapper">
-          <div className="projects-title">
-            <h2>_projects</h2>
-          </div>
+          <h2>_projects</h2>
 
           <div className="grid">
             {data.projects.map((project) => (
@@ -18,7 +16,7 @@ const Projects = () => {
                 key={project.id}
                 heading={project.title}
                 paragraph={project.para}
-tools={project.tools}
+                tools={project.tools}
                 imgUrl={project.imageSrc}
                 projectDemoLink={project.projectDemo}
                 projectGithubLink={project.projectGithub}
@@ -28,7 +26,7 @@ tools={project.tools}
         </div>
       </div>
     </section>
-  );  
+  );
 };
 
 export default Projects;
