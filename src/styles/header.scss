@@ -56,7 +56,7 @@ header {
 .header-wrapper {
 
     width: 85vw;
-    padding-top: 40px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -73,17 +73,18 @@ header {
 
 
         color: #FFFEF6;
+        margin-bottom: 45px;
 
         @include media(">=phone", "<lgphone") {
             font-size: 50px;
         }
 
         @include media(">=lgphone", "<tablet") {
-            font-size: 55px;
+            font-size: 70px;
         }
 
         @include media(">=tablet", "<desktop") {
-            font-size: 75px;
+            font-size: 90px;
         }
 
         @include media(">=desktop", "<smdesktop") {
@@ -91,7 +92,7 @@ header {
         }
 
         @include media(">=smdesktop", "<mddesktop") {
-            font-size: 120px;
+            font-size: 95px;
         }
 
         @include media(">=mddesktop", "<=lgdesktop") {
@@ -105,24 +106,21 @@ header {
 
     p {
 
-        height: 100%;
-        font-size: 18px;
-        line-height: 1.25;
-        padding: 0;
-        font-family: fluro;
+
+        margin-bottom: 55px;
         color: #FFFEF6;
 
 
 
         @include media(">=phone", "<lgphone") {
             font-size: 16px;
-            width: 225px;
+            width: 220px;
 
         }
 
         @include media(">=lgphone", "<tablet") {
             font-size: 18px;
-            width: 325px;
+            width: 320px;
         }
 
         @include media(">=tablet", "<desktop") {
@@ -131,13 +129,13 @@ header {
         }
 
         @include media(">=desktop", "<smdesktop") {
-            font-size: 24px;
+            font-size: 20px;
             width: 425px;
         }
 
         @include media(">=smdesktop", "<mddesktop") {
-            font-size: 24px;
-            width: 425px;
+            font-size: 20px;
+            width: 370px;
         }
 
         @include media(">=mddesktop", "<=lgdesktop") {
