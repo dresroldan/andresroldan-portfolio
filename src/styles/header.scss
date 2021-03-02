@@ -5,60 +5,50 @@ $caret-color:#FFFEF6;
 $text-length: 11;
 $animation-time: 1.5s;
 
-h1 {
-    font-family: 'Fluro', Consolas, monospace;
-
-    color: $text-color;
-}
-
-// Typing style
-.typing {
-    position: relative;
-
-    &::after {
-        content: "|";
-        position: absolute;
-        right: 0;
-        width: 100%;
-        color: $caret-color;
-        background: $bg;
-        animation: typing $animation-time steps($text-length) forwards,
-            caret 1s infinite;
-    }
-}
-
-// Animation
-@keyframes typing {
-    to {
-        width: 0
-    }
-}
-
-@keyframes caret {
-    50% {
-        color: transparent
-    }
-}
-
-
-
 
 
 header {
 
-    background-color: black;
+
+
+
+
+
+    @include media(">=phone", "<lgphone") {
+        height: 750px;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        height: 800px;
+    }
+
+    @include media(">=tablet", "<desktop") {
+        height: 800px;
+    }
+
+    @include media(">=desktop", "<smdesktop") {
+        height: 800px;
+    }
+
+    @include media(">=smdesktop", "<mddesktop") {
+        height: 800px;
+    }
+
+    @include media(">=mddesktop", "<=lgdesktop") {
+        height: 850px;
+    }
+
+
+    .container {
+        justify-content: normal;
+    }
+
+
 }
 
 
 
-.container-1 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
 
 
@@ -71,13 +61,54 @@ header {
     flex-direction: column;
     align-items: flex-start;
 
+
+    .downward-arrow {
+        cursor: pointer;
+        margin-top: 30px;
+    }
+
+
+
+    h1 {
+
+
+        color: #FFFEF6;
+
+        @include media(">=phone", "<lgphone") {
+            font-size: 50px;
+        }
+
+        @include media(">=lgphone", "<tablet") {
+            font-size: 55px;
+        }
+
+        @include media(">=tablet", "<desktop") {
+            font-size: 75px;
+        }
+
+        @include media(">=desktop", "<smdesktop") {
+            font-size: 95px;
+        }
+
+        @include media(">=smdesktop", "<mddesktop") {
+            font-size: 120px;
+        }
+
+        @include media(">=mddesktop", "<=lgdesktop") {
+            font-size: 120px;
+        }
+
+
+    }
+
+
+
     p {
 
         height: 100%;
         font-size: 18px;
         line-height: 1.25;
         padding: 0;
-
         font-family: fluro;
         color: #FFFEF6;
 
@@ -129,12 +160,31 @@ header {
 
 
 
+// Typing style
+// .typing {
+//     position: relative;
 
+//     &::after {
+//         content: "|";
+//         position: absolute;
+//         right: 0;
+//         width: 100%;
+//         color: $caret-color;
+//         background: $bg;
+//         animation: typing $animation-time steps($text-length) forwards,
+//             caret 1s infinite;
+//     }
+// }
 
+// // Animation
+// @keyframes typing {
+//     to {
+//         width: 0
+//     }
+// }
 
-
-
-.downward-arrow {
-    cursor: pointer;
-    margin-top: 30px;
-}
+// @keyframes caret {
+//     50% {
+//         color: transparent
+//     }
+// }
