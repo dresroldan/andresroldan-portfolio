@@ -7,7 +7,7 @@ const Card = ({
   imgUrl,
   projectDemoLink,
   projectGithubLink,
-  tools
+  tools,
 }) => {
   return (
     <div
@@ -16,33 +16,29 @@ const Card = ({
         backgroundImage: "url(" + imgUrl + ")",
       }}
     >
-      <div className="content">
-        <div className="content-wrapper">
+      <div className="content-wrapper">
+        <div className="content">
+          <h3 className="header">{heading}</h3>
+          <p className="text2">{paragraph}</p>
+          <p className="text2">{tools}</p>
+          <a
+            href={projectDemoLink ? projectDemoLink : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            <button>demo</button>
+          </a>
 
-
-        <h3 className="header">{heading}</h3>
-        <p className="text2">{paragraph}</p>
-        <p className="text2">{tools}</p>
-        <a
-          href={projectDemoLink ? projectDemoLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          <button>demo</button>
-        </a>
-
-        <a
-          href={projectGithubLink ? projectGithubLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          <button>code</button>
-        </a>
-
+          <a
+            href={projectGithubLink ? projectGithubLink : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            <button>code</button>
+          </a>
         </div>
-
       </div>
     </div>
   );

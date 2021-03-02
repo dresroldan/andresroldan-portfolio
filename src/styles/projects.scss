@@ -23,9 +23,14 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     
-    @include media(">=phone", "<desktop") {
+    @include media(">=phone", "<smdesktop") {
       grid-template-columns: 1fr;
     }
+
+    @include media(">=smdesktop", "<mddesktop") {
+      grid-template-columns: 1fr 1fr;
+  }
+
     @include media(">=desktop", "<=lgdesktop") {
       grid-template-columns: 1fr 1fr;
     
