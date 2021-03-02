@@ -1,5 +1,5 @@
 footer {
-    width: 100vw;
+
     min-height: 250px;
     overflow: hidden;
     background-color: black;
@@ -18,51 +18,51 @@ footer {
 
     display: flex;
     justify-content: space-between;
-   
+
     margin-top: 20px;
 
-    .icons{
+    .icons {
 
         align-self: center;
-    
-    }
-
-
-
-
-
-
-a {
-
-    img {
-
-        // margin-right: 20px;
-        
-        transform: rotate(180deg);
 
     }
 
 
-}
-   
- 
+
+
+
+
+    a {}
+
+
 }
 
-h3{
+h3 {
 
-    color:#FFFEF6;
+    color: #FFFEF6;
     font-family: "fluro light";
     font-size: 16px;
-    }
+}
 
 
-    .line {
-    
-        color: white;
-        background-color:
-           white;
-        height: 1px;
-        border: none;
-        width: 80%;
-    }
-    
+.line {
+
+    color: white;
+    background-color:
+        white;
+    height: 1px;
+    border: none;
+    width: 80%;
+}
+
+
+
+
+
+.upwards-arrow {
+
+    // margin-right: 20px;
+
+    transform: rotate(180deg);
+
+}

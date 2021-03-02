@@ -77,7 +77,7 @@ header {
         font-size: 18px;
         line-height: 1.25;
         padding: 0;
-        
+
         font-family: fluro;
         color: #FFFEF6;
 
@@ -88,27 +88,27 @@ header {
             width: 225px;
 
         }
-    
+
         @include media(">=lgphone", "<tablet") {
             font-size: 18px;
             width: 325px;
         }
-    
+
         @include media(">=tablet", "<desktop") {
             font-size: 20px;
             width: 350px;
         }
-    
+
         @include media(">=desktop", "<smdesktop") {
             font-size: 24px;
             width: 425px;
         }
-    
+
         @include media(">=smdesktop", "<mddesktop") {
             font-size: 24px;
             width: 425px;
         }
-    
+
         @include media(">=mddesktop", "<=lgdesktop") {
             font-size: 24px;
             width: 425px;
@@ -134,7 +134,7 @@ header {
 
 
 
-img {
+.downward-arrow {
     cursor: pointer;
     margin-top: 30px;
 }
