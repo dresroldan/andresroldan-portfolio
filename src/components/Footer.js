@@ -9,19 +9,16 @@ const Footer = () => {
         <div className="links-footer">
           <div className="links-wrapper">
             <div className="icons">
-              <Link
-              
-              href="google.com"
-              
+              <a
+                className="buttons"
+                href="https://www.linkedin.com/in/andresroldan23/"
               >
                 <img src="https://img.icons8.com/ios-glyphs/40/FFFDEB/linkedin-circled--v1.png" />
-              </Link>
-              <Link  href="https://drive.google.com/file/d/1Rbd3QmBiwz_b83c-k0Lr7RLEsWS2-D6q/view?usp=sharing">
+              </a>
+
+              <a className="buttons" href="https://github.com/dresroldan">
                 <img src="https://img.icons8.com/material-sharp/40/FFFDEB/github.png" />
-              </Link>
-              <Link>
-                <img src="https://img.icons8.com/material-sharp/40/FFFDEB/github.png" />
-              </Link>
+              </a>
             </div>
 
             <Link

@@ -11,7 +11,7 @@ const Navbar = () => {
             .
           </div>
 
-          <div className="links-wrapper">
+          <div className="link-wrapper">
             <Link
               activeClass="active"
               to="projects"
