@@ -11,64 +11,92 @@
     padding-top: 70px;
     padding-bottom: 95px;
 
-    .about-title {
-        width: 85vw;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+
+    h2 {
+
+        align-self: end;
     }
-
-
-
-
-    }
-
-
 
 
 
     .about-heading {
 
-
-        color: black;
-width: 85vw;
         margin-top: 35px;
 
- 
-        
-        
-    
+    }
 
-        
-     
-        
-        
- 
+
+    .contact-wrapper {
+
+
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 95px;
+        display: flex;
+        justify-content: space-between;
+
+        @include media(">=phone", "<lgphone") {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @include media(">=lgphone", "<tablet") {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @include media(">=tablet", "<desktop") {
+            align-items: center;
+        }
+
+
+
+
+        .image-content {
+            width: 85vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            // margin-right: 50px;
+            margin-bottom: 40px;
+        }
+
+
+
+        .contact-info {
+
+            width: 85vw;
+
+        }
+
+
+    }
 
 }
 
+.links {
 
-.line {
-    
-    color: #000;
-    background-color:
-        #000;
-    height: 1px;
-    border: none;
-    width: 80%;
-}
-
-.image-content {
-    width: 100%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    overflow: hidden;
-    // justify-content: flex-start;
-    
-    margin-right: 50px;
-    
+
+    display: grid;
+
+
+
+    .button {
+
+        margin-bottom: 10px;
+
+    }
+
+    .fa-ul {
+
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
 }
+
 
 
 button {
@@ -76,9 +104,9 @@ button {
     text-decoration: none;
     padding: 10px;
     font-family: "Fluro";
-    // opacity: 0.6;
+
     transition: all 0.5s ease-in-out;
-    // font-size: 16px;
+
     background-color: #FFFEF6;
     outline: black;
     border: 1px;
@@ -96,7 +124,7 @@ button {
 
 
 
-.button{
+.button {
     text-decoration: none;
     padding: 10px;
     font-family: "Fluro";
@@ -117,145 +145,4 @@ button {
         background-color: black;
         color: #FFFEF6;
     }
-
-}
-
-
-
-
-.name p {
-
-
-    font-size: 16px;
-
-}
-
-
-
-
-
-.image-content {
-
-justify-content: center;
-
-
-    @include media(">=phone", "<lgphone") {
-        width: 100%;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-        width: 50%;
-    }
-
-    @include media(">=tablet", "<desktop") {
-        width: 50%;
-    }
-
-    @include media(">=desktop", "<smdesktop") {
-        width: 50%;
-    }
-
-    @include media(">=smdesktop", "<mddesktop") {
-        width: 40%;
-
-    }
-
-    @include media(">=mddesktop", "<=lgdesktop") {
-        width: 40%;
-
-    }
-  
-}
-
-
-.contact-info {
-
-    
-    align-items: center;
-    // width: 600px;
-    padding-top: 70px;
-    padding-bottom: 95px;
-    display: flex;
-    justify-content: space-between;
-
-    @include media(">=phone", "<lgphone") {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    @include media(">=tablet", "<desktop") {
-        // flex-direction: column;
-        align-items: center;
-    }
-}
-
-
-
-
-.link1{
-
-   
-    @include media(">=phone", "<lgphone") {
-        width: 100%;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-        width: 50%;
-    }
-
-    @include media(">=tablet", "<desktop") {
-        width: 50%;
-    }
-
-    @include media(">=desktop", "<smdesktop") {
-        width: 50%;
-    }
-
-    @include media(">=smdesktop", "<mddesktop") {
-        width: 40%;
-
-    }
-
-    @include media(">=mddesktop", "<=lgdesktop") {
-        width: 40%;
-
-    }
-
-}
-
-
-
-.links {
-    
-    justify-content: center;
-   
-    display: grid;
-
-
-
-button{
-
-margin-bottom: 10px;
-
-}
-
-
-
-}
-
-    
-
-
-    // ICONS
-    
-    
-
-.fa-ul {
-    
-    line-height: 30px;
 }
