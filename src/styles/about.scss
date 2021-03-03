@@ -21,13 +21,13 @@
 
     .about-heading {
 
-        margin-top: 35px;
+        margin-top: 60px;
 
     }
 
 
     .contact-wrapper {
-
+        width: 85vw;
 
         align-items: center;
         padding-top: 70px;
@@ -53,20 +53,39 @@
 
 
         .image-content {
-            width: 85vw;
+
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
             // margin-right: 50px;
             margin-bottom: 40px;
+
+            @include media(">=phone", "<tablet") {
+                width: 100%;
+            }
+
+
+
+            @include media(">=tablet", "<=lgdesktop") {
+                width: 50%;
+            }
+
         }
 
 
 
         .contact-info {
 
-            width: 85vw;
+            @include media(">=phone", "<tablet") {
+                width: 100%;
+            }
+
+
+
+            @include media(">=tablet", "<=lgdesktop") {
+                width: 50%;
+            }
 
         }
 
@@ -96,6 +115,14 @@
     }
 
 }
+
+
+
+
+
+
+
+
 
 
 
