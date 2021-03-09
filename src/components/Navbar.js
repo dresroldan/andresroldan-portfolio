@@ -12,17 +12,9 @@ const Navbar = () => {
           </div>
 
           <div className="link-wrapper">
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
-              <button>projects</button>
-            </Link>
 
-            <Link
+
+          <Link
               activeClass="active"
               to="about"
               spy={true}
@@ -34,13 +26,24 @@ const Navbar = () => {
 
             <Link
               activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <button>projects</button>
+            </Link>
+
+
+            {/* <Link
+              activeClass="active"
               to="about"
               spy={true}
               smooth={true}
               duration={1000}
             >
               <button>contact</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
