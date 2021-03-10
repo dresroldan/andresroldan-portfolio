@@ -1,7 +1,7 @@
 @import "./include-media.scss";
 
 .about-wrapper {
-    width: 85vw;
+    width: 90vw;
     padding-top: 70px;
     padding-bottom: 95px;
     display: grid;
@@ -33,15 +33,15 @@
     .image-content {
 
 
-        margin-bottom: 35px;
+        
 
         @include media(">=phone", "<lgphone") {
 
-            justify-self: center;
+            margin-bottom: 55px;
         }
 
         @include media(">=lgphone", "<tablet") {
-            justify-self: center;
+            margin-bottom: 55px;
         }
 
         @include media(">=tablet", "<desktop") {}
@@ -73,33 +73,33 @@
 
             @include media(">=phone", "<lgphone") {
                 width: 280px;
-                justify-self: center;
+
             }
 
             @include media(">=lgphone", "<tablet") {
-                width: 315px;
-                justify-self: center;
+                width: 345px;
+
             }
 
             @include media(">=tablet", "<desktop") {
                 width: 315px;
-                justify-self: center;
+
             }
 
             @include media(">=desktop", "<smdesktop") {
                 width: 350px;
-                justify-self: center;
+
             }
 
             @include media(">=smdesktop", "<mddesktop") {
                 width: 350px;
-                justify-self: center;
+
             }
 
             @include media(">=mddesktop", "<=lgdesktop") {
                 width: 450px;
 
-                justify-self: center;
+
             }
 
 

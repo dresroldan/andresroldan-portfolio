@@ -32,11 +32,11 @@ section {
 button {
 
     @include media(">=phone", "<smdesktop") {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     @include media(">=smdesktop", "<mddesktop") {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     @include media(">=mddesktop", "<=lgdesktop") {
