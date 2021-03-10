@@ -1,16 +1,24 @@
 @import "./include-media.scss";
 
-
-
 .about-wrapper {
     width: 85vw;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
     padding-top: 70px;
     padding-bottom: 95px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
 
+
+
+    @include media(">=phone", "<tablet") {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    @include media(">=tablet", "<=lgdesktop") {
+        grid-template-columns: 1fr 1fr;
+    }
 
     h2 {
 
@@ -19,163 +27,242 @@
 
 
 
-    .about-heading {
-
-        margin-top: 60px;
-
-    }
 
 
-    .contact-wrapper {
-        width: 85vw;
 
-        align-items: center;
-        padding-top: 70px;
-        padding-bottom: 95px;
-        display: flex;
-        justify-content: space-between;
+    .image-content {
+
+
+        margin-bottom: 35px;
 
         @include media(">=phone", "<lgphone") {
-            flex-direction: column;
-            align-items: center;
+
+            justify-self: center;
         }
 
         @include media(">=lgphone", "<tablet") {
-            flex-direction: column;
-            align-items: center;
+            justify-self: center;
         }
 
-        @include media(">=tablet", "<desktop") {
-            align-items: center;
+        @include media(">=tablet", "<desktop") {}
+
+        @include media(">=desktop", "<smdesktop") {}
+
+        @include media(">=smdesktop", "<mddesktop") {
+
+            justify-self: center;
+        }
+
+        @include media(">=mddesktop", "<=lgdesktop") {
+
+
+            justify-self: center;
         }
 
 
 
 
-        .image-content {
 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            // margin-right: 50px;
-            margin-bottom: 40px;
 
-            @include media(">=phone", "<tablet") {
-                width: 100%;
+
+
+        img {
+
+            height: auto;
+            width: 425px;
+
+            @include media(">=phone", "<lgphone") {
+                width: 280px;
+                justify-self: center;
+            }
+
+            @include media(">=lgphone", "<tablet") {
+                width: 315px;
+                justify-self: center;
+            }
+
+            @include media(">=tablet", "<desktop") {
+                width: 315px;
+                justify-self: center;
+            }
+
+            @include media(">=desktop", "<smdesktop") {
+                width: 350px;
+                justify-self: center;
+            }
+
+            @include media(">=smdesktop", "<mddesktop") {
+                width: 350px;
+                justify-self: center;
+            }
+
+            @include media(">=mddesktop", "<=lgdesktop") {
+                width: 450px;
+
+                justify-self: center;
+            }
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .info-text {
+
+
+
+        @include media(">=phone", "<tablet") {
+            // width: 315px;
+        }
+
+
+
+        @include media(">=tablet", "<=lgdesktop") {
+            padding: 0px 5px 0px 20px;
+        }
+
+
+
+        h2 {
+            margin-bottom: 20px;
+
+        }
+
+        p {
+
+            margin-bottom: 35px;
+        }
+
+
+
+
+        .buttons {
+
+
+            .button {
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                padding: 10px;
+                font-family: "Fluro";
+                min-width: 200px;
+                max-width: 350px;
+                transition: all 0.5s ease-in-out;
+                color: black;
+                background-color: #FFFEF6;
+                outline: black;
+                border: 1px;
+                cursor: pointer;
+                color: black;
+                border-style: solid;
+                border-color: black;
+                margin-bottom: 10px;
+
+                &:hover {
+                    opacity: 1;
+                    background-color: black;
+                    color: #FFFEF6;
+                }
+
+
+
+
+            }
+
+
+        }
+
+
+
+
+
+        .linkss {
+
+
+            margin-bottom: 30px;
+
+            .fa-ul {
+
+                margin-left: 1.5em;
+
+
+
+            }
+
+            .fa-ul>li {
+
+                margin-bottom: 15px;
+
             }
 
 
 
-            @include media(">=tablet", "<=lgdesktop") {
-                width: 50%;
-            }
 
         }
 
-img{
-
-height: 300px;
-width: auto;
-
-
-}
-
-        .contact-info {
-
-            @include media(">=phone", "<tablet") {
-                width: 100%;
-            }
-
-
-
-            @include media(">=tablet", "<=lgdesktop") {
-                width: 50%;
-            }
-
-        }
-
-
     }
 
-}
+    // .button {
+    //     text-decoration: none;
+    //     padding: 10px;
+    //     font-family: "Fluro";
+    //     opacity: 0.6;
+    //     transition: all 0.2s ease-in-out;
+    //     background-color: transparent;
+    //     outline: none;
+    //     border: 0px;
+    //     cursor: pointer;
+    //     color: #FFFEF6;
 
-.links {
+    //     &:hover {
+    //         opacity: 1;
+    //     }
+    // }
 
-    justify-content: center;
-
-    display: grid;
-
-
-
-    .button {
-
-        margin-bottom: 10px;
-
-    }
-
-    .fa-ul {
-
-        line-height: 30px;
-        margin-bottom: 30px;
-    }
-
-}
+    // .active {
+    //     color: white;
+    // }
 
 
 
 
+    // .button {
+    //     text-decoration: none;
+    //     padding: 10px;
+    //     font-family: "Fluro";
+    //     // opacity: 0.6;
+    //     transition: all 0.5s ease-in-out;
+    //     // font-size: 16px;
+    //     background-color: #FFFEF6;
+    //     outline: black;
+    //     border: 1px;
+    //     cursor: pointer;
+    //     color: black;
+
+    //     border-color: black;
+    //     text-align: center;
+    //     max-width: 40%;
+    //     min-width: 70%;
+
+    //     &:hover {
+    //         opacity: 1;
+    //         background-color: black;
+    //         color: #FFFEF6;
+    //     }
+    // }
 
 
 
 
-
-
-
-button {
-
-    text-decoration: none;
-    padding: 10px;
-    font-family: "Fluro";
-
-    transition: all 0.5s ease-in-out;
-
-    background-color: #FFFEF6;
-    outline: black;
-    border: 1px;
-    cursor: pointer;
-    color: black;
-    border-style: solid;
-    border-color: black;
-
-    &:hover {
-        opacity: 1;
-        background-color: black;
-        color: #FFFEF6;
-    }
-}
-
-
-
-.button {
-    text-decoration: none;
-    padding: 10px;
-    font-family: "Fluro";
-    // opacity: 0.6;
-    transition: all 0.5s ease-in-out;
-    // font-size: 16px;
-    background-color: #FFFEF6;
-    outline: black;
-    border: 1px;
-    cursor: pointer;
-    color: black;
-    border-style: solid;
-    border-color: black;
-    text-align: center;
-
-    &:hover {
-        opacity: 1;
-        background-color: black;
-        color: #FFFEF6;
-    }
 }
