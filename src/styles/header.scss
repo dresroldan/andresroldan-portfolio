@@ -62,6 +62,24 @@ header {
     align-items: flex-start;
 
 
+    @include media(">=phone", "<lgphone") {
+        align-items: flex-start;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+        align-items: flex-start;
+    }
+
+    @include media(">=tablet", "<=lgdesktop") {}
+
+
+
+
+
+
+
+
+
     .downward-arrow {
         cursor: pointer;
         margin-top: 30px;
@@ -74,6 +92,7 @@ header {
 
         color: #FFFEF6;
         margin-bottom: 45px;
+        text-align: left;
 
         @include media(">=phone", "<lgphone") {
             font-size: 50px;
@@ -85,14 +104,17 @@ header {
 
         @include media(">=tablet", "<desktop") {
             font-size: 90px;
+
         }
 
         @include media(">=desktop", "<smdesktop") {
             font-size: 95px;
+
         }
 
         @include media(">=smdesktop", "<mddesktop") {
             font-size: 95px;
+
         }
 
         @include media(">=mddesktop", "<=lgdesktop") {
@@ -107,7 +129,7 @@ header {
     p {
 
 
-        margin-bottom: 55px;
+        margin-bottom: 65px;
         color: #FFFEF6;
 
 
