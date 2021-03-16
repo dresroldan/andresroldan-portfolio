@@ -8,13 +8,11 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-wrapper">
           <div role="button" className="name" tabIndex={0}>
-            .
+            <img src="https://img.icons8.com/ios-filled/5/FFFFFF/filled-circle.png" />
           </div>
 
           <div className="link-wrapper">
-
-
-          <Link
+            <Link
               activeClass="active"
               to="about"
               spy={true}
@@ -33,17 +31,6 @@ const Navbar = () => {
             >
               <button>projects</button>
             </Link>
-
-
-            {/* <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
-              <button>contact</button>
-            </Link> */}
           </div>
         </div>
       </div>

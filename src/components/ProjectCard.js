@@ -21,27 +21,23 @@ const Card = ({
           <h3 className="header">{heading}</h3>
           <p className="text2">{paragraph}</p>
           <p className="text2">{tools}</p>
-<div className="card__buttons">
+          <div className="card__buttons">
+            <a
+              className="card__button"
+              href={projectDemoLink ? projectDemoLink : "#"}
+              target="_blank"
+            >
+              demo
+            </a>
 
-<a
-            className="card__button"
-            href={projectDemoLink ? projectDemoLink : "#"}
-            target="_blank"
-          >
-            demo
-          </a>
-
-          <a
-            className="card__button"
-            href={projectGithubLink ? projectGithubLink : "#"}
-            target="_blank"
-          >
-            code
-          </a>
-
-
-</div>
-
+            <a
+              className="card__button"
+              href={projectGithubLink ? projectGithubLink : "#"}
+              target="_blank"
+            >
+              code
+            </a>
+          </div>
         </div>
       </div>
     </div>
