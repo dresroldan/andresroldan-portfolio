@@ -6,30 +6,28 @@ const About = () => {
   return (
     <section id="about">
       <div className="container">
-
-   
-
         <div className="about-wrapper">
-{/* 
+          {/* 
         <h2>_about</h2> */}
 
-
-
           <div className="image-content">
-       
             <img src={img}></img>
           </div>
 
           <div className="info-text">
             <h2>Andres Roldan</h2>
             <p>
-              Front end developer with a background in music production and an
-              eye for design. Recent certificate in full stack development from
-              Northwestern University in Chicago, IL with acquired skills in
-              HTML, CSS, JavaScript, React.js and responsive web design. Proven
-              to work well in teams and independently, my focus is to create
-              applications that improve the lives of others through user
-              experience.
+              Full Stack Web Developer with a background in specialty coffee and
+              music production seeking to leverage my skills and experience to
+              join a creative and diverse team in tech. Recent certificate in
+              Full Stack Web Development from Northwestern University in
+              Chicago, IL with acquired skills in HTML, CSS, JavaScript, React,
+              Node.js, Express, MongoDB, and Responsive Web Design. Proven to
+              work well in teams and independently with years of experience in
+              the service industry. Solutions-driven and detailed oriented
+              developer, who values communication and creative problem-solving.
+              My focus is to bring my passion for technology, design, and
+              community to the table.
             </p>
 
             <div className="linkss">
@@ -68,9 +66,6 @@ const About = () => {
                 _linkedin
               </a>
             </div>
-          
-          
-          
           </div>
         </div>
       </div>
