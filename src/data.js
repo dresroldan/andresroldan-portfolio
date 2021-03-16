@@ -10,7 +10,7 @@ export default {
       title: "DermPal",
       para:
         "A barcode scanning app that is designed to help the user find skincare products that are compatible with their skin.",
-      tools: "Utilized: HTML5, CSS, jQuery, Moment.js, Open Weather API",
+      tools: "Utilized: React, Mongo, Heroku, Material-UI, Server-side API, Express, NodeJS, Axios, Postman, CSS, HTTP",
       imageSrc: project1,
 
       projectDemo: "https://dermpal1.herokuapp.com/",
@@ -19,10 +19,10 @@ export default {
 
     {
       id: 2,
-      title: "Picniq",
+      title: "Picniq", 
       para:
         "A single search, location-based application, providing users with nearby parks and restaurants offering takeout/delivery.",
-      tools: "Utilized: HTML5, CSS, jQuery, Moment.js, Open Weather API",
+      tools: "HTML5, CSS, Bootstrap, PureCSS, Javascript, FourSquare, OpenCage Geocoder API, Google Fonts",
       imageSrc: project2,
       projectDemo: "https://jpbrickhouse.github.io/Picniq/",
       projectGithub: "https://github.com/JPBrickhouse/Picniq",

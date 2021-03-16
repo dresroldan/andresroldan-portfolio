@@ -55,3 +55,34 @@ h3{
 }
 
 
+.card__buttons{
+
+padding-top: 15px;
+
+.card__button {
+  text-decoration: none;
+  padding: 10px;
+
+  font-family: "Fluro";
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  background-color:white;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+  color: black;
+
+  &:hover {
+      opacity: 1;
+  }
+}
+
+.active {
+  color: white;
+}
+
+
+
+
+}
+

@@ -52,16 +52,22 @@ const About = () => {
               <a
                 className="button"
                 href="https://drive.google.com/file/d/1Rbd3QmBiwz_b83c-k0Lr7RLEsWS2-D6q/view?usp=sharing"
+                target="_blank"
               >
                 _resume
               </a>
-              <a className="button" href="https://github.com/dresroldan">
+              <a
+                className="button"
+                href="https://github.com/dresroldan"
+                target="_blank"
+              >
                 _github
               </a>
 
               <a
                 className="button"
                 href="https://www.linkedin.com/in/andresroldan23/"
+                target="_blank"
               >
                 _linkedin
               </a>
