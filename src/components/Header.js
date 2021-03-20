@@ -13,9 +13,13 @@ const Header = () => {
             <br />
             I'm Andrés{" "}
           </h1>
+{/* <h1> Web developer and musician 
+focused on responsive design</h1> */}
+
           <p>
             {" "}
-            I'm a Chicago-based developer who focuses on building web applications that
+            {/* Hello, I'm Andrés — a  */}
+            Chicago-based developer focusing on building web applications that
             showcase a passion for visual identity, interactive design, and user
             experience.
           </p>

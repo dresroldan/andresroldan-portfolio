@@ -51,7 +51,7 @@ const About = () => {
             <div className="buttons">
               <a
                 className="button"
-                href="https://drive.google.com/file/d/1Rbd3QmBiwz_b83c-k0Lr7RLEsWS2-D6q/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Hn4H4227n0kRO_wiZGYqvMopld0REVbR/view?usp=sharing"
                 target="_blank"
               >
                 _resume
