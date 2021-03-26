@@ -21,12 +21,11 @@ const About = () => {
               music production seeking to leverage my skills and experience to
               join a creative and diverse team in tech. Recent certificate in
               Full Stack Web Development from Northwestern University in
-              Chicago, IL with acquired skills in HTML, CSS, JavaScript, React,
-              Node.js, Express, MongoDB, and Responsive Web Design. Proven to
-              work well in teams and independently with years of experience in
-              the service industry. Solutions-driven and detailed oriented
-              developer, who values communication and creative problem-solving.
-              My focus is to bring my passion for technology, design, and
+              Chicago, IL. Proven to work well in teams and independently with
+              years of experience in the service industry. Solutions-driven and
+              detailed oriented developer, who values communication and creative
+              problem-solving. I'm determined to improve my code, and design
+              skills everyday while bringing my passion for technology, design, and
               community to the table.
             </p>
 

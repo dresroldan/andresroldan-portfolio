@@ -91,7 +91,7 @@ header {
 
 
         color: #FFFEF6;
-        margin-bottom: 45px;
+        margin-bottom: 20px;
         text-align: left;
 
         @include media(">=phone", "<lgphone") {
@@ -99,11 +99,11 @@ header {
         }
 
         @include media(">=lgphone", "<tablet") {
-            font-size: 70px;
+            font-size: 65px;
         }
 
         @include media(">=tablet", "<desktop") {
-            font-size: 90px;
+            font-size: 75px;
 
         }
 
@@ -136,33 +136,33 @@ header {
 
         @include media(">=phone", "<lgphone") {
             font-size: 16px;
-            width: 220px;
+            width: 250px;
 
         }
 
         @include media(">=lgphone", "<tablet") {
-            font-size: 18px;
-            width: 320px;
+            font-size: 16px;
+            width: 275px;
         }
 
         @include media(">=tablet", "<desktop") {
-            font-size: 20px;
-            width: 350px;
+            font-size: 16px;
+            width: 375px;
         }
 
         @include media(">=desktop", "<smdesktop") {
-            font-size: 20px;
-            width: 425px;
+            font-size: 16px;
+            width: 375px;
         }
 
         @include media(">=smdesktop", "<mddesktop") {
             font-size: 20px;
-            width: 370px;
+            width: 375px;
         }
 
         @include media(">=mddesktop", "<=lgdesktop") {
             font-size: 24px;
-            width: 425px;
+            width: 375px;
         }
 
 
