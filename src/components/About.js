@@ -6,24 +6,24 @@ const About = () => {
   return (
     <section id="about">
       <div className="container">
+    
         <div className="about-wrapper">
-          {/* 
-        <h2>_about</h2> */}
+          
 
           <div className="image-content">
             <img src={img}></img>
           </div>
 
           <div className="info-text">
-            {/* <h2>Andres Roldan</h2> */}
+            <h2>Andrés Roldán</h2>
             <p>
-              Full Stack Web Developer with a background in
-              specialty coffee and music production seeking to leverage my
-              skills and experience to join a creative and diverse team in tech.
-              Recent certificate in Full Stack Web Development from Northwestern
-              University in Chicago, IL. I'm determined to improve my code, and
-              design skills everyday while bringing my passion for technology,
-              design, and community to the table.
+              Full Stack Web Developer with a background in specialty coffee and
+              music production seeking to leverage my skills and experience to
+              join a creative and diverse team in tech. Recent certificate in
+              Full Stack Web Development from Northwestern University in
+              Chicago, IL. I'm determined to improve my code, and design skills
+              everyday while bringing my passion for technology, design, and
+              community to the table.
             </p>
 
             <p>

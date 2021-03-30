@@ -2,22 +2,23 @@ import React from "react";
 import "../styles/navbar.scss";
 import { Link } from "react-scroll";
 
-
 const Navbar = () => {
   return (
     <nav id="navbar">
       <div className="container">
         <div className="navbar-wrapper">
-        <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
-          <div role="button" className="name" tabIndex={0}>
-            <p>Andres Roldan</p>
-          </div>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            <div role="button" className="name" tabIndex={0}>
+              <p>
+                Andrés Roldán
+              </p>
+            </div>
           </Link>
 
           <div className="link-wrapper">
@@ -30,15 +31,7 @@ const Navbar = () => {
             >
               <button>about</button>
             </Link>
-            {/* <Link
-              activeClass="active"
-           
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
-              <button href="https://drive.google.com/file/d/1Hn4H4227n0kRO_wiZGYqvMopld0REVbR/view?usp=sharing" >resume</button>
-            </Link> */}
+
             <Link
               activeClass="active"
               to="projects"

@@ -1,24 +1,17 @@
 @import "./include-media.scss";
-$bg: black;
+
 $text-color: #FFFEF6;
-$caret-color:#FFFEF6;
-$text-length: 11;
-$animation-time: 1.5s;
+
 
 
 
 header {
 
-
-
-
-
-
     @include media(">=phone", "<lgphone") {
         height: 750px;
     }
 
-    @include media(">=lgphone", "<tablet") {
+    @include media(">=lgphone", "<mddesktop") {
         height: 800px;
     }
 
@@ -30,7 +23,7 @@ header {
         height: 800px;
     }
 
-    @include media(">=smdesktop", "<mddesktop") {
+    @include media(">=smdesktop", ) {
         height: 800px;
     }
 
@@ -47,132 +40,91 @@ header {
 }
 
 
-
-
-
-
-
-
 .header-wrapper {
 
     width: 85vw;
-    padding-top: 70px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
 
-    @include media(">=phone", "<lgphone") {
-        align-items: flex-start;
+    
+    h1 {
+        
+        color: $text-color;
+        margin-bottom: 20px;
+        text-align: left;
+
+        @include media(">=phone", "<lgphone") {
+            font-size: 50px;
+        }
+    
+        @include media(">=lgphone", "<mddesktop") {
+            font-size: 50px;
+        }
+    
+        @include media(">=tablet", "<desktop") {
+            font-size: 75px;
+        }
+    
+        @include media(">=desktop", "<smdesktop") {
+            font-size: 75px;
+        }
+    
+        @include media(">=smdesktop","<=lgdesktop" ) {
+            font-size: 100px;
+        }
+    
+     
+
+
+
+
     }
+    
+    p {
+        
+        margin-bottom: 65px;
+        color: $text-color;
+        
+        @include media(">=phone", "<tablet") {
+            font-size: 16px;
+            width: 275px;
+        }
+    
+   
+        @include media(">=tablet", "<desktop") {
+            font-size: 18px;
+            width: 375px;
+        }
+    
+        @include media(">=desktop", "<smdesktop") {
+            font-size: 18px;
+            width: 375px;
+        }
+    
+        @include media(">=smdesktop", "<=lgdesktop") {
+            width: 375px;
+            font-size: 18px;
+        }
+    
+ 
 
-    @include media(">=lgphone", "<tablet") {
-        align-items: flex-start;
+
+
     }
-
-    @include media(">=tablet", "<=lgdesktop") {}
-
-
-
-
-
-
-
 
 
     .downward-arrow {
         cursor: pointer;
         margin-top: 30px;
     }
-
-
-
-    h1 {
-
-
-        color: #FFFEF6;
-        margin-bottom: 20px;
-        text-align: left;
-
-        @include media(">=phone", "<lgphone") {
-            font-size: 45px;
-        }
-
-        @include media(">=lgphone", "<tablet") {
-            font-size: 45px;
-        }
-
-        @include media(">=tablet", "<desktop") {
-            font-size: 55px;
-
-        }
-
-        @include media(">=desktop", "<smdesktop") {
-            font-size: 95px;
-
-        }
-
-        @include media(">=smdesktop", "<mddesktop") {
-            font-size: 95px;
-
-        }
-
-        @include media(">=mddesktop", "<=lgdesktop") {
-            font-size: 120px;
-        }
-
-
+    
     }
 
 
 
-    p {
-
-
-        margin-bottom: 65px;
-        color: #FFFEF6;
-
-
-
-        @include media(">=phone", "<lgphone") {
-            font-size: 16px;
-            width: 250px;
-
-        }
-
-        @include media(">=lgphone", "<tablet") {
-            font-size: 16px;
-            width: 275px;
-        }
-
-        @include media(">=tablet", "<desktop") {
-            font-size: 20px;
-            width: 375px;
-        }
-
-        @include media(">=desktop", "<smdesktop") {
-            font-size: 16px;
-            width: 375px;
-        }
-
-        @include media(">=smdesktop", "<mddesktop") {
-            font-size: 20px;
-            width: 375px;
-        }
-
-        @include media(">=mddesktop", "<=lgdesktop") {
-            font-size: 24px;
-            width: 375px;
-        }
-
-
-
-
-
-
-    }
-
-}
 
 
 
@@ -180,31 +132,4 @@ header {
 
 
 
-// Typing style
-// .typing {
-//     position: relative;
 
-//     &::after {
-//         content: "|";
-//         position: absolute;
-//         right: 0;
-//         width: 100%;
-//         color: $caret-color;
-//         background: $bg;
-//         animation: typing $animation-time steps($text-length) forwards,
-//             caret 1s infinite;
-//     }
-// }
-
-// // Animation
-// @keyframes typing {
-//     to {
-//         width: 0
-//     }
-// }
-
-// @keyframes caret {
-//     50% {
-//         color: transparent
-//     }
-// }
