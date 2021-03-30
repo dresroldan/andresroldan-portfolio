@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.48939269.chunk.css",
-    "main.js": "/static/js/main.c246cf26.chunk.js",
-    "main.js.map": "/static/js/main.c246cf26.chunk.js.map",
+    "main.css": "/static/css/main.6c6617de.chunk.css",
+    "main.js": "/static/js/main.b4724924.chunk.js",
+    "main.js.map": "/static/js/main.b4724924.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba10c9b.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba10c9b.js.map",
     "static/js/2.b7870e9a.chunk.js": "/static/js/2.b7870e9a.chunk.js",
     "static/js/2.b7870e9a.chunk.js.map": "/static/js/2.b7870e9a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.48939269.chunk.css.map": "/static/css/main.48939269.chunk.css.map",
+    "static/css/main.6c6617de.chunk.css.map": "/static/css/main.6c6617de.chunk.css.map",
     "static/js/2.b7870e9a.chunk.js.LICENSE.txt": "/static/js/2.b7870e9a.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/FLUROSemibold.ffdf0b2d.eot",
     "static/media/andresfullimage.63a8089b.jpg": "/static/media/andresfullimage.63a8089b.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ba10c9b.js",
     "static/js/2.b7870e9a.chunk.js",
-    "static/css/main.48939269.chunk.css",
-    "static/js/main.c246cf26.chunk.js"
+    "static/css/main.6c6617de.chunk.css",
+    "static/js/main.b4724924.chunk.js"
   ]
 }
