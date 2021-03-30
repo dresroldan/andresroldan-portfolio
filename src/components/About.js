@@ -15,18 +15,20 @@ const About = () => {
           </div>
 
           <div className="info-text">
-            <h2>Andres Roldan</h2>
+            {/* <h2>Andres Roldan</h2> */}
             <p>
-              Full Stack Web Developer with a background in specialty coffee and
-              music production seeking to leverage my skills and experience to
-              join a creative and diverse team in tech. Recent certificate in
-              Full Stack Web Development from Northwestern University in
-              Chicago, IL. Proven to work well in teams and independently with
-              years of experience in the service industry. Solutions-driven and
-              detailed oriented developer, who values communication and creative
-              problem-solving. I'm determined to improve my code, and design
-              skills everyday while bringing my passion for technology, design, and
-              community to the table.
+              Full Stack Web Developer with a background in
+              specialty coffee and music production seeking to leverage my
+              skills and experience to join a creative and diverse team in tech.
+              Recent certificate in Full Stack Web Development from Northwestern
+              University in Chicago, IL. I'm determined to improve my code, and
+              design skills everyday while bringing my passion for technology,
+              design, and community to the table.
+            </p>
+
+            <p>
+              I would love to hear from you. Whether it's a project, job
+              opportunity, or just to chat. Feel free to contact me.
             </p>
 
             <div className="linkss">

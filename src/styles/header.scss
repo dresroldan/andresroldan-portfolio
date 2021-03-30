@@ -95,15 +95,15 @@ header {
         text-align: left;
 
         @include media(">=phone", "<lgphone") {
-            font-size: 50px;
+            font-size: 45px;
         }
 
         @include media(">=lgphone", "<tablet") {
-            font-size: 65px;
+            font-size: 45px;
         }
 
         @include media(">=tablet", "<desktop") {
-            font-size: 75px;
+            font-size: 55px;
 
         }
 
@@ -146,7 +146,7 @@ header {
         }
 
         @include media(">=tablet", "<desktop") {
-            font-size: 16px;
+            font-size: 20px;
             width: 375px;
         }
 
