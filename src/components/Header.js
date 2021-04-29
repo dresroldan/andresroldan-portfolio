@@ -1,7 +1,6 @@
-import React from "react";
-import "../styles/header.scss";
-import { Link } from "react-scroll";
-import ArrowButton from "./ArrowButton";
+import React from 'react';
+import '../styles/header.scss';
+import ArrowButton from './ArrowButton';
 
 const Header = () => {
   return (
@@ -18,7 +17,7 @@ const Header = () => {
             web experiences using modern web technologies such as React.
           </p>
 
-          <ArrowButton></ArrowButton>
+          <ArrowButton />
         </div>
       </div>
     </header>

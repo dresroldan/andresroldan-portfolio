@@ -1,4 +1,4 @@
-@import "./include-media.scss";
+@import './include-media.scss';
 
 .about-wrapper {
   width: 90vw;
@@ -8,11 +8,11 @@
   grid-template-columns: 1fr;
   align-items: center;
 
-  @include media(">=phone", "<tablet") {
+  @include media('>=phone', '<tablet') {
     grid-template-columns: 1fr;
   }
 
-  @include media(">=tablet", "<=lgdesktop") {
+  @include media('>=tablet', '<=lgdesktop') {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -21,19 +21,19 @@
   }
 
   .image-content {
-    @include media(">=phone", "<lgphone") {
+    @include media('>=phone', '<lgphone') {
       margin-bottom: 55px;
     }
 
-    @include media(">=lgphone", "<tablet") {
+    @include media('>=lgphone', '<tablet') {
       margin-bottom: 55px;
     }
 
-    @include media(">=smdesktop", "<mddesktop") {
+    @include media('>=smdesktop', '<mddesktop') {
       justify-self: center;
     }
 
-    @include media(">=mddesktop", "<=lgdesktop") {
+    @include media('>=mddesktop', '<=lgdesktop') {
       justify-self: center;
     }
 
@@ -41,38 +41,38 @@
       height: auto;
       width: 425px;
 
-      @include media(">=phone", "<lgphone") {
+      @include media('>=phone', '<lgphone') {
         width: 280px;
       }
 
-      @include media(">=lgphone", "<tablet") {
+      @include media('>=lgphone', '<tablet') {
         width: 345px;
       }
 
-      @include media(">=tablet", "<desktop") {
+      @include media('>=tablet', '<desktop') {
         width: 315px;
       }
 
-      @include media(">=desktop", "<smdesktop") {
+      @include media('>=desktop', '<smdesktop') {
         width: 350px;
       }
 
-      @include media(">=smdesktop", "<mddesktop") {
+      @include media('>=smdesktop', '<mddesktop') {
         width: 350px;
       }
 
-      @include media(">=mddesktop", "<=lgdesktop") {
+      @include media('>=mddesktop', '<=lgdesktop') {
         width: 450px;
       }
     }
   }
 
   .info-text {
-    @include media(">=phone", "<tablet") {
+    @include media('>=phone', '<tablet') {
       padding-right: 25px;
     }
 
-    @include media(">=tablet", "<=lgdesktop") {
+    @include media('>=tablet', '<=lgdesktop') {
       padding: 0px 5px 0px 20px;
     }
 
@@ -90,7 +90,7 @@
         justify-content: center;
         text-decoration: none;
         padding: 10px;
-        font-family: "Fluro";
+        font-family: 'Fluro';
         min-width: 200px;
         max-width: 350px;
         transition: all 0.5s ease-in-out;

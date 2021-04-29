@@ -1,52 +1,38 @@
-@import "./include-media.scss";
-
+@import './include-media.scss';
 
 #skills {
-
-    background-color: #BFCCB8;
-
+  background-color: #bfccb8;
 }
 
 .skills-wrapper {
-    width: 85vw;
-    padding-top: 70px;
-    padding-bottom: 95px;
-    display: flex;
-    justify-content: space-between;
+  width: 85vw;
+  padding-top: 70px;
+  padding-bottom: 95px;
+  display: flex;
+  justify-content: space-between;
 
-    h2 {
+  h2 {
+    font-family: fluro bold outline;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
 
-        font-family: fluro bold outline;
-        font-size: 60px;
-        margin-bottom: 30px;
+  @include media('>=phone', '<desktop') {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list {
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+
+    @include media('>=phone', '<desktop') {
+      width: 100%;
     }
 
-
-
-
-    @include media(">=phone", "<desktop") {
-        flex-direction: column;
-        align-items: center;
+    @include media('>=desktop', '<=lgdesktop') {
+      width: 60%;
     }
-
-
-    .skills-list {
-
-        font-size: 18px;
-        text-align: center;
-        align-self: center;
-
-        @include media(">=phone", "<desktop") {
-            width: 100%;
-        }
-
-        @include media(">=desktop", "<=lgdesktop") {
-            width: 60%;
-        }
-
-
-    }
-
-
-
+  }
 }

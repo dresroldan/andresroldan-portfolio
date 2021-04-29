@@ -1,7 +1,7 @@
-import React from "react";
-import Card from "./ProjectCard";
-import "../styles/projects.scss";
-import data from "../data.js";
+import React from 'react';
+import Card from './ProjectCard';
+import '../styles/projects.scss';
+import data from '../data.js';
 
 const Projects = () => {
   return (

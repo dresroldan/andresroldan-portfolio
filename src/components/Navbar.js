@@ -1,6 +1,6 @@
-import React from "react";
-import "../styles/navbar.scss";
-import { Link } from "react-scroll";
+import React from 'react';
+import '../styles/navbar.scss';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -15,9 +15,7 @@ const Navbar = () => {
             duration={1000}
           >
             <div role="button" className="name" tabIndex={0}>
-              <p>
-                Andrés Roldán
-              </p>
+              <p>Andrés Roldán</p>
             </div>
           </Link>
 

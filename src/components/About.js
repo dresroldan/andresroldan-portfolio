@@ -1,15 +1,12 @@
-import React from "react";
-import "../styles/about.scss";
-import img from "../assets/images/andresfullimage.jpg";
+import React from 'react';
+import '../styles/about.scss';
+import img from '../assets/images/andresfullimage.jpg';
 
 const About = () => {
   return (
     <section id="about">
       <div className="container">
-    
         <div className="about-wrapper">
-          
-
           <div className="image-content">
             <img src={img}></img>
           </div>

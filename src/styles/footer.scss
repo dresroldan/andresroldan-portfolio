@@ -1,51 +1,25 @@
 footer {
-
-    min-height: 180px;
-    overflow: hidden;
-    background-color: black;
+  min-height: 180px;
+  overflow: hidden;
+  background-color: black;
 }
-
-
-
 
 .links-wrapper {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
 
+  margin-top: 35px;
 
-    width: 85vw;
-    display: flex;
-    justify-content: space-between;
+  .icons {
+    align-self: center;
 
-    margin-top: 35px;
-
-    .icons {
-
-        align-self: center;
-
-
-a{
-
-    margin-right: 10px;
-}
-
+    a {
+      margin-right: 10px;
     }
+  }
 
-   
-
-
-
-    .upwards-arrow {
-
-    
-        transform: rotate(380deg);
-    
-    }
-
-
-
+  .upwards-arrow {
+    transform: rotate(380deg);
+  }
 }
-
-
-
-
-
-

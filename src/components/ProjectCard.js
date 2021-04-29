@@ -1,5 +1,5 @@
-import React from "react";
-import "../styles/projectcard.scss";
+import React from 'react';
+import '../styles/projectcard.scss';
 
 const Card = ({
   heading,
@@ -13,7 +13,7 @@ const Card = ({
     <div
       className="card"
       style={{
-        backgroundImage: "url(" + imgUrl + ")",
+        backgroundImage: 'url(' + imgUrl + ')',
       }}
     >
       <div className="content-wrapper">
@@ -24,7 +24,7 @@ const Card = ({
           <div className="card__buttons">
             <a
               className="card__button"
-              href={projectDemoLink ? projectDemoLink : "#"}
+              href={projectDemoLink ? projectDemoLink : '#'}
               target="_blank"
             >
               demo
@@ -32,7 +32,7 @@ const Card = ({
 
             <a
               className="card__button"
-              href={projectGithubLink ? projectGithubLink : "#"}
+              href={projectGithubLink ? projectGithubLink : '#'}
               target="_blank"
             >
               code

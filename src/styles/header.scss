@@ -1,135 +1,97 @@
-@import "./include-media.scss";
+@import './include-media.scss';
 
-$text-color: #FFFEF6;
-
-
-
+$text-color: #fffef6;
 
 header {
+  @include media('>=phone', '<lgphone') {
+    height: 750px;
+  }
 
-    @include media(">=phone", "<lgphone") {
-        height: 750px;
-    }
+  @include media('>=lgphone', '<mddesktop') {
+    height: 800px;
+  }
 
-    @include media(">=lgphone", "<mddesktop") {
-        height: 800px;
-    }
+  @include media('>=tablet', '<desktop') {
+    height: 800px;
+  }
 
-    @include media(">=tablet", "<desktop") {
-        height: 800px;
-    }
+  @include media('>=desktop', '<smdesktop') {
+    height: 800px;
+  }
 
-    @include media(">=desktop", "<smdesktop") {
-        height: 800px;
-    }
+  @include media('>=smdesktop') {
+    height: 800px;
+  }
 
-    @include media(">=smdesktop", ) {
-        height: 800px;
-    }
+  @include media('>=mddesktop', '<=lgdesktop') {
+    height: 850px;
+  }
 
-    @include media(">=mddesktop", "<=lgdesktop") {
-        height: 850px;
-    }
-
-
-    .container {
-        justify-content: normal;
-    }
-
-
+  .container {
+    justify-content: normal;
+  }
 }
 
-
 .header-wrapper {
+  width: 85vw;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    width: 85vw;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  h1 {
+    color: $text-color;
+    margin-bottom: 20px;
+    text-align: left;
 
-
-    
-    h1 {
-        
-        color: $text-color;
-        margin-bottom: 20px;
-        text-align: left;
-
-        @include media(">=phone", "<lgphone") {
-            font-size: 50px;
-        }
-    
-        @include media(">=lgphone", "<mddesktop") {
-            font-size: 50px;
-        }
-    
-        @include media(">=tablet", "<desktop") {
-            font-size: 75px;
-        }
-    
-        @include media(">=desktop", "<smdesktop") {
-            font-size: 75px;
-        }
-    
-        @include media(">=smdesktop","<=lgdesktop" ) {
-            font-size: 100px;
-        }
-    
-     
-
-
-
-
-    }
-    
-    p {
-        
-        margin-bottom: 65px;
-        color: $text-color;
-        
-        @include media(">=phone", "<tablet") {
-            font-size: 16px;
-            width: 275px;
-        }
-    
-   
-        @include media(">=tablet", "<desktop") {
-            font-size: 18px;
-            width: 375px;
-        }
-    
-        @include media(">=desktop", "<smdesktop") {
-            font-size: 18px;
-            width: 375px;
-        }
-    
-        @include media(">=smdesktop", "<=lgdesktop") {
-            width: 375px;
-            font-size: 18px;
-        }
-    
- 
-
-
-
+    @include media('>=phone', '<lgphone') {
+      font-size: 50px;
     }
 
-
-    .downward-arrow {
-        cursor: pointer;
-        margin-top: 30px;
-    }
-    
+    @include media('>=lgphone', '<mddesktop') {
+      font-size: 50px;
     }
 
+    @include media('>=tablet', '<desktop') {
+      font-size: 75px;
+    }
 
+    @include media('>=desktop', '<smdesktop') {
+      font-size: 75px;
+    }
 
+    @include media('>=smdesktop', '<=lgdesktop') {
+      font-size: 100px;
+    }
+  }
 
+  p {
+    margin-bottom: 65px;
+    color: $text-color;
 
+    @include media('>=phone', '<tablet') {
+      font-size: 16px;
+      width: 275px;
+    }
 
+    @include media('>=tablet', '<desktop') {
+      font-size: 18px;
+      width: 375px;
+    }
 
+    @include media('>=desktop', '<smdesktop') {
+      font-size: 18px;
+      width: 375px;
+    }
 
+    @include media('>=smdesktop', '<=lgdesktop') {
+      width: 375px;
+      font-size: 18px;
+    }
+  }
 
-
-
+  .downward-arrow {
+    cursor: pointer;
+    margin-top: 30px;
+  }
+}
