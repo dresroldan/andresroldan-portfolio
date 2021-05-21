@@ -49,7 +49,7 @@ const About = () => {
             <div className="buttons">
               <a
                 className="button"
-                href="https://drive.google.com/file/d/1Hn4H4227n0kRO_wiZGYqvMopld0REVbR/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Wf0t5UipNqg9yNvzpXlHdLcVVB47WrIj/view?usp=sharing"
                 target="_blank"
               >
                 _resume

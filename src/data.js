@@ -8,8 +8,7 @@ export default {
     {
       id: 1,
       title: 'Vinyl Record eCommmerce Store',
-      para:
-        'An online vinyl record shop, allowing users the ability to browse through various vinyl records with full description and genre. Users will also be able to place products in a shopping cart, where it is presented as an order at checkout.',
+      para: 'An online vinyl record shop, allowing users the ability to browse through various vinyl records with full description and genre. Users will also be able to place products in a shopping cart, where it is presented as an order at checkout.',
       tools:
         'Utilized: React, Redux, NodeJS, Express, MongoDB, Passport.js, Material-UI',
       imageSrc: project5,
@@ -21,8 +20,7 @@ export default {
     {
       id: 2,
       title: 'DermPal',
-      para:
-        'A barcode scanning app that is designed to help the user find skincare products that are compatible with their skin.',
+      para: 'A barcode scanning app that is designed to help the user find skincare products that are compatible with their skin.',
       tools:
         'Utilized: React, Mongo, Heroku, Material-UI, Server-side API, Express, NodeJS, Axios, Postman, CSS, HTTP',
       imageSrc: project1,
@@ -34,8 +32,7 @@ export default {
     {
       id: 3,
       title: 'Picniq',
-      para:
-        'A single search, location-based application, providing users with nearby parks and restaurants offering takeout/delivery.',
+      para: 'A single search, location-based application, providing users with nearby parks and restaurants offering takeout/delivery.',
       tools:
         'HTML5, CSS, Bootstrap, PureCSS, Javascript, FourSquare, OpenCage Geocoder API, Google Fonts',
       imageSrc: project2,
@@ -46,8 +43,7 @@ export default {
     {
       id: 4,
       title: 'Weather Dashboard',
-      para:
-        'A one-page dashboard that displays weather conditions for multiple cities.',
+      para: 'A one-page dashboard that displays weather conditions for multiple cities.',
       tools: 'Utilized: HTML5, CSS, jQuery, Moment.js, Open Weather API',
       imageSrc: project4,
       projectDemo: 'https://dresroldan.github.io/weather-dashboard/',
