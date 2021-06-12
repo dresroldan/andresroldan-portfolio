@@ -1,16 +1,16 @@
 import React from 'react';
 import Card from './ProjectCard';
-import '../styles/projects.scss';
+import '../styles/projects.css';
 import data from '../data.js';
 
 const Projects = () => {
   return (
     <section id="projects">
       <div className="container">
-        <div className="work-wrapper">
-          <h3>_projects</h3>
+        <div className="projects__wrapper">
+          <h2>_projects</h2>
 
-          <div className="grid">
+          <div className="projects__grid">
             {data.projects.map((project) => (
               <Card
                 key={project.id}

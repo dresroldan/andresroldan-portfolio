@@ -54,6 +54,13 @@ h1 {
   }
 }
 
+
+h2 {
+  align-self: end;
+}
+
+
+
 button {
   @include media('>=phone', '<smdesktop') {
     font-size: 16px;

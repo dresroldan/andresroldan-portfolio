@@ -1,0 +1,21 @@
+.projects__wrapper {
+  width: 90vw;
+  padding-top: 70px;
+  padding-bottom: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__grid {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+}
+
+@media only screen and (min-width: 800px) {
+  .projects__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
