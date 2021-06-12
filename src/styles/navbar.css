@@ -1,0 +1,31 @@
+nav {
+  width: 100vw;
+  height: auto;
+}
+
+.navbar__wrapper {
+  width: 85vw;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__title {
+  color: white;
+  cursor: pointer;
+}
+
+.navbar__link {
+  padding: 12px;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  color: #fffef6;
+}
+
+.navbar__link:hover {
+  opacity: 1;
+}

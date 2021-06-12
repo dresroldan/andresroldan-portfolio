@@ -1,33 +1,33 @@
 import React from 'react';
-import '../styles/navbar.scss';
 import { Link } from 'react-scroll';
+import '../styles/navbar.css';
 
 const Navbar = () => {
   return (
-    <nav id="navbar">
+    <nav>
       <div className="container">
-        <div className="navbar-wrapper">
+        <div className="navbar__wrapper">
           <Link
             activeClass="active"
             to="about"
             spy={true}
             smooth={true}
             duration={1000}
+            className="navbar__title"
           >
-            <div role="button" className="name" tabIndex={0}>
-              <p>Andrés Roldán</p>
-            </div>
+            Andrés Roldán
           </Link>
 
-          <div className="link-wrapper">
+          <div className="navbar__links">
             <Link
               activeClass="active"
               to="about"
               spy={true}
               smooth={true}
               duration={1000}
+              className="navbar__link"
             >
-              <button>about</button>
+              about
             </Link>
 
             <Link
@@ -36,8 +36,9 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={1000}
+              className="navbar__link"
             >
-              <button>projects</button>
+              projects
             </Link>
           </div>
         </div>
