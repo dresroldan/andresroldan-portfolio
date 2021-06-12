@@ -28,6 +28,32 @@ section {
   justify-content: center;
 }
 
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+
+  @include media('>=phone', '<lgphone') {
+    font-size: 50px;
+  }
+
+  @include media('>=lgphone', '<mddesktop') {
+    font-size: 50px;
+  }
+
+  @include media('>=tablet', '<desktop') {
+    font-size: 75px;
+  }
+
+  @include media('>=desktop', '<smdesktop') {
+    font-size: 75px;
+  }
+
+  @include media('>=smdesktop', '<=lgdesktop') {
+    font-size: 100px;
+  }
+}
+
 button {
   @include media('>=phone', '<smdesktop') {
     font-size: 16px;
