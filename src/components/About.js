@@ -1,18 +1,20 @@
 import React from 'react';
-import '../styles/about.scss';
+import '../styles/about.css';
 import img from '../assets/images/andresfullimage.jpg';
 
 const About = () => {
   return (
     <section id="about">
       <div className="container">
-        <div className="about-wrapper">
-          <div className="image-content">
-            <img src={img}></img>
-          </div>
+        <div className="about__wrapper">
+          <img
+            className="about__image"
+            alt="Andres Roldan Portfolio"
+            src={img}
+          ></img>
 
-          <div className="info-text">
-            <h2>Andrés Roldán</h2>
+          <div className="about__bio">
+            <h3>Andrés Roldán</h3>
             <p>
               Full Stack Web Developer with a background in specialty coffee and
               music production seeking to leverage my skills and experience to
@@ -28,7 +30,7 @@ const About = () => {
               opportunity, or just to chat. Feel free to contact me.
             </p>
 
-            <div className="linkss">
+            <div className="about__info">
               <ul className="fa-ul">
                 <li>
                   <span className="fa-li">
@@ -46,26 +48,29 @@ const About = () => {
               </ul>
             </div>
 
-            <div className="buttons">
+            <div className="about__buttons">
               <a
-                className="button"
+                className="about__button"
                 href="https://drive.google.com/file/d/1Wf0t5UipNqg9yNvzpXlHdLcVVB47WrIj/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 _resume
               </a>
               <a
-                className="button"
+                className="about__button"
                 href="https://github.com/dresroldan"
                 target="_blank"
+                rel="noreferrer"
               >
                 _github
               </a>
 
               <a
-                className="button"
+                className="about__button"
                 href="https://www.linkedin.com/in/andresroldan23/"
                 target="_blank"
+                rel="noreferrer"
               >
                 _linkedin
               </a>
