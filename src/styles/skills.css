@@ -1,0 +1,31 @@
+#skills {
+  background-color: #bfccb8;
+}
+
+.skills__wrapper {
+  width: 85vw;
+  padding-top: 70px;
+  padding-bottom: 95px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.skills-list {
+  font-size: 18px;
+  text-align: center;
+  align-self: center;
+}
+
+h4 {
+  font-family: fluro bold outline;
+  font-size: 70px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .skills__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
