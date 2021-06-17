@@ -1,6 +1,6 @@
 import React from 'react';
+import portfolioImg from '../assets/images/andresfullimage.jpg';
 import '../styles/about.css';
-import img from '../assets/images/andresfullimage.jpg';
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
           <img
             className="about__image"
             alt="Andres Roldan Portfolio"
-            src={img}
+            src={portfolioImg}
           ></img>
 
           <div className="about__bio">

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/arrowbutton.css';
 import { Link } from 'react-scroll';
+import '../styles/arrowbutton.css';
 
 const ArrowButton = () => {
   return (
