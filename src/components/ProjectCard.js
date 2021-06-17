@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/projectcard.scss';
+import '../styles/projectcard.css';
 
 const Card = ({
   heading,
@@ -16,13 +16,14 @@ const Card = ({
         backgroundImage: 'url(' + imgUrl + ')',
       }}
     >
-      <div className="content-wrapper">
-        <div className="content">
-          <h3 className="header">{heading}</h3>
-          <p className="text2">{paragraph}</p>
-          <p className="text2">{tools}</p>
+      <div className="card__wrapper">
+        <div className="card__content">
+          <p className="card__title">{heading}</p>
+          <p className="card__description">{paragraph}</p>
+          <p className="card__description">{tools}</p>
           <div className="card__buttons">
             <a
+              rel="noreferrer"
               className="card__button"
               href={projectDemoLink ? projectDemoLink : '#'}
               target="_blank"
@@ -31,6 +32,7 @@ const Card = ({
             </a>
 
             <a
+              rel="noreferrer"
               className="card__button"
               href={projectGithubLink ? projectGithubLink : '#'}
               target="_blank"

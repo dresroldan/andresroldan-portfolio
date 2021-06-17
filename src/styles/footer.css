@@ -5,16 +5,21 @@ footer {
 }
 
 .links__wrapper {
-  width: 85vw;
-  display: flex;
+  width: 90vw;
+  display: grid;
   margin-top: 35px;
-  justify-content: space-between;
+  grid-template-rows: 1fr 1fr;
 }
 
 .links__icons {
-  align-self: center;
+  margin-bottom: 10px;
 }
 
 .links__icons > a {
   margin-right: 10px;
+}
+
+.footer__copyright {
+  color: white;
+  font-size: 12px;
 }

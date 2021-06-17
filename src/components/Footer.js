@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/footer.css';
-import UpArrow from './UpArrow.js';
 
 const Footer = () => {
   return (
@@ -25,8 +24,7 @@ const Footer = () => {
               />
             </a>
           </div>
-
-          <UpArrow />
+          <span className="footer__copyright ">© 2021 Andrés Roldán</span>
         </div>
       </div>
     </footer>
