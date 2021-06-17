@@ -15,11 +15,11 @@ const Projects = () => {
               <Card
                 key={project.id}
                 heading={project.title}
-                paragraph={project.para}
+                paragraph={project.description}
                 tools={project.tools}
-                imgUrl={project.imageSrc}
-                projectDemoLink={project.projectDemo}
-                projectGithubLink={project.projectGithub}
+                imgUrl={project.img}
+                projectDemoLink={project.demo}
+                projectGithubLink={project.github}
               ></Card>
             ))}
           </div>
