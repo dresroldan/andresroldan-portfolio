@@ -7,7 +7,6 @@ const Skills = () => {
       <div className="container">
         <div className="skills__wrapper">
           <h4>skill-set</h4>
-
           <div className="skills__list">
             <p>
               HTML5, JavaScript, ES6, jQuery, CSS, SCSS, Bootstrap, Material UI,

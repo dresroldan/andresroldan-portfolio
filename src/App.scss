@@ -1,5 +1,3 @@
-@import './styles/include-media.scss';
-
 * {
   font-family: 'Fluro';
   box-sizing: border-box;
@@ -32,45 +30,21 @@ h1 {
   color: white;
   margin-bottom: 20px;
   text-align: left;
-
-  @include media('>=phone', '<lgphone') {
-    font-size: 50px;
-  }
-
-  @include media('>=lgphone', '<mddesktop') {
-    font-size: 50px;
-  }
-
-  @include media('>=tablet', '<desktop') {
-    font-size: 75px;
-  }
-
-  @include media('>=desktop', '<smdesktop') {
-    font-size: 75px;
-  }
-
-  @include media('>=smdesktop', '<=lgdesktop') {
-    font-size: 100px;
-  }
+  font-size: 50px;
 }
-
 
 h2 {
   align-self: end;
 }
 
-
-
-button {
-  @include media('>=phone', '<smdesktop') {
-    font-size: 16px;
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 75px;
   }
+}
 
-  @include media('>=smdesktop', '<mddesktop') {
-    font-size: 18px;
-  }
-
-  @include media('>=mddesktop', '<=lgdesktop') {
-    font-size: 18px;
+@media only screen and (min-width: 850px) {
+  h1 {
+    font-size: 100px;
   }
 }
