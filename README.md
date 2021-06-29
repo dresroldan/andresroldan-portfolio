@@ -1,4 +1,4 @@
-## Portfolio 2.0
+## Portfolio 
 
 ## Description
 
@@ -7,7 +7,7 @@ An updated and dynamic portfolio showcasing my resume and recent projects for po
 ## Technologies
 
 *HTML</br>
-*SCSS</br>
+*CSS</br>
 *React JS</br>
 
 
@@ -15,5 +15,6 @@ An updated and dynamic portfolio showcasing my resume and recent projects for po
 
 ## Wireframe
 
-![](src/assets/images/portfolio-wireframe.png)
-
+![](src/assets/images/portfolio-screenshot.png)
+![](src/assets/images/portfolio-screenshot3.png)
+![](src/assets/images/portfolio-screenshot2.png)
