@@ -1,5 +1,5 @@
 import project1 from './assets/images/ecommerce.png';
-import project2 from './assets/images/dermpalhome.png';
+import project2 from './assets/images/buenviaje-homepage.png';
 import project3 from './assets/images/picniqapp.png';
 import project4 from './assets/images/weatherdashboard.png';
 
@@ -19,15 +19,14 @@ const data = {
     },
     {
       id: 2,
-      title: 'DermPal',
+      title: 'Buen Viaje Radio',
       description:
-        'A barcode scanning app that is designed to help the user find skincare products that are compatible with their skin.',
-      tools:
-        'Utilized: React, Mongo, Heroku, Material-UI, Server-side API, Express, NodeJS, Axios, Postman, CSS, HTTP',
+        'A single page website for Buen Viaje Radio, a monthly DJ livestream platform.',
+      tools: 'Utilized: Gatsby, React-Bootstrap, Figma, Vimeo',
       img: project2,
 
-      demo: 'https://dermpal1.herokuapp.com/',
-      github: 'https://github.com/Bbeyenene/dermpal1',
+      demo: 'https://www.buenviajeradio.com/',
+      github: 'https://github.com/dresroldan/buen_viaje_radio',
     },
 
     {

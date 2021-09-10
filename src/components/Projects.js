@@ -8,8 +8,6 @@ const Projects = () => {
     <section id="projects">
       <div className="container">
         <div className="projects__wrapper">
-          <h2>_projects</h2>
-
           <div className="projects__grid">
             {data.projects.map((project) => (
               <Card
