@@ -51,7 +51,7 @@ const About = () => {
             <div className="about__buttons">
               <a
                 className="about__button"
-                href="https://drive.google.com/file/d/1Wf0t5UipNqg9yNvzpXlHdLcVVB47WrIj/view?usp=sharing"
+                href="https://drive.google.com/file/d/1YlCcVBEzmj2juzJ0Yg-wcLv-OdaKUiH_/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
