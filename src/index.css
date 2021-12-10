@@ -1,56 +1,23 @@
 * {
-  font-family: 'Fluro';
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  margin: auto;
+  max-width: 1440px;
+  height: 100vh;
   background-color: #000;
+  font-family: 'Fluro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-section {
-  background-color: #fffef6;
-  display: flex;
-  align-items: center;
-}
-
-.container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-h1 {
-  color: white;
-  margin-bottom: 20px;
-  text-align: left;
-  font-size: 50px;
-}
-
-h2 {
-  align-self: end;
-}
-
-@media only screen and (min-width: 600px) {
-  h1 {
-    font-size: 75px;
-  }
-}
-
-@media only screen and (min-width: 850px) {
-  h1 {
-    font-size: 100px;
-  }
+main {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 @font-face {
