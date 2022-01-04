@@ -10,18 +10,6 @@ body {
   font-family: 'Fluro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  background-image: -webkit-linear-gradient(
-      bottom,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.3)
-    ),
-    url(./assets/images/chicago-image.jpeg);
-  /* 
-background-position: center center; */
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 @font-face {
