@@ -1,7 +1,7 @@
-import project1 from './assets/images/ecommerce.png';
-import project2 from './assets/images/buenviaje-homepage.png';
-import project3 from './assets/images/picniqapp.png';
-import project4 from './assets/images/weatherdashboard.png';
+import project1 from './assets/images/record-store.jpg';
+import project2 from './assets/images/bv-dj.png';
+import project3 from './assets/images/picnic.jpeg';
+import project4 from './assets/images/weather-dash.jpeg';
 
 const data = {
   projects: [
@@ -9,7 +9,7 @@ const data = {
       id: 1,
       title: 'Vinyl Record eCommmerce Store',
       description:
-        'An online vinyl record shop, allowing users the ability to browse through various vinyl records with full description and genre. Users will also be able to place products in a shopping cart, where it is presented as an order at checkout.',
+        'An online vinyl record shop, allowing users the ability to browse and shop various vinyl records with full description and genre.',
       tools:
         'Utilized: React, Redux, NodeJS, Express, MongoDB, Passport.js, Material-UI',
       img: project1,
@@ -35,7 +35,7 @@ const data = {
       description:
         'A single search, location-based application, providing users with nearby parks and restaurants offering takeout/delivery.',
       tools:
-        'HTML5, CSS, Bootstrap, PureCSS, Javascript, FourSquare, OpenCage Geocoder API, Google Fonts',
+        'Utilized: HTML5, CSS, Bootstrap, PureCSS, Javascript, FourSquare, OpenCage Geocoder API, Google Fonts',
       img: project3,
       demo: 'https://jpbrickhouse.github.io/Picniq/',
       github: 'https://github.com/JPBrickhouse/Picniq',

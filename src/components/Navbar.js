@@ -1,73 +1,39 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import '../styles/navbar.css';
 
 const Navbar = () => {
-  const [isActive, setActive] = useState('true');
-  const handleToggle = () => {
-    setActive(!isActive);
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
   };
 
+  const navigation = [
+    { link: '/about', text: 'About' },
+    { link: '/projects', text: 'Projects' },
+    { link: 'mailto:dresroldan@gmail.com', text: 'Contact' },
+  ];
+
   return (
-    <header>
-      <div className="header__group left">
-        <Link
-          activeClass="active"
-          to="about"
-          spy={true}
-          smooth={true}
-          duration={1000}
-          className="header__logo"
-        >
+    <nav role="navigation" className={click ? 'nav--active' : 'nav'}>
+      <div className="navbar__container">
+        <a href="/" className="navbar__logo">
           Andrés Roldán
-        </Link>
-      </div>
-
-      <div className="header__group right">
-        <div className="hamburger" onClick={handleToggle}>
-          <div className="hamburger__line"></div>
-          <div className="hamburger__line"></div>
+        </a>
+        <div className="navbar__icon" onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
-
-        <nav role="navigation" className={isActive ? 'navbar--hidden' : null}>
-          <div className="navbar__menu">
-            <div className="hamburger__menu" onClick={handleToggle}>
-              <div className="hamburger__menu-line"></div>
-              <div className="hamburger__menu-line"></div>
-            </div>
-
-            <div className="navbar__menu-icon"></div>
-            <ul className="navbar__list">
-              <li className="navbar__list-item">
-                <Link
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  duration={1000}
-                  className={isActive ? 'navbar__link' : 'navbar__link--menu'}
-                >
-                  projects
-                </Link>
-              </li>
-
-              <li className="navbar-list-item">
-                <Link
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  duration={1000}
-                  className={isActive ? 'navbar__link' : 'navbar__link--menu'}
-                >
-                  projects
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <ul className={click ? ' navbar__menu active' : 'navbar__menu'}>
+          {navigation.map((nav) => (
+            <li key={nav.text} className="navbar__item">
+              <a className="navbar__link" href={nav.link}>
+                {nav.text}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
-    </header>
+    </nav>
   );
 };
 

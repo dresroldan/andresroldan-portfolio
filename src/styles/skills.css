@@ -1,29 +1,31 @@
 #skills {
-  background-color: #bfccb8;
+  background-color: rgb(44, 43, 44, 0.9);
 }
 
 .skills__wrapper {
-  width: 85vw;
-  padding-top: 70px;
-  padding-bottom: 95px;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
   align-items: center;
+  justify-content: center;
+  margin: 0px 25px;
 }
 
-.skills-list {
-  font-size: 18px;
+.skills__list {
   text-align: center;
-  align-self: center;
+  color: #ebebeb;
+  padding: 0px 35px;
+  max-width: 750px;
 }
 
-h4 {
-  font-family: fluro bold outline;
-  font-size: 70px;
+.skills__title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #ebebeb;
+  margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   .skills__wrapper {
     grid-template-columns: 1fr 1fr;
   }

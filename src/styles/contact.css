@@ -1,0 +1,29 @@
+.contact__container {
+  padding: 50px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contact__title {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 800px) {
+  .contact__container {
+    margin: 0px 50px;
+    padding: 100px 25px;
+    justify-content: center;
+  }
+
+  .contact__title {
+    font-size: 35px;
+  }
+}

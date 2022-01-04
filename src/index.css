@@ -7,17 +7,22 @@
 
 body {
   margin: auto;
-  max-width: 1440px;
   height: 100vh;
-  background-color: #000;
   font-family: 'Fluro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-main {
-  margin-left: 25px;
-  margin-right: 25px;
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(./assets/images/chicago-image.jpeg);
+
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 
 @font-face {
@@ -84,3 +89,9 @@ main {
   font-style: normal;
   font-display: swap;
 }
+
+/* @media only screen and (min-width: 600px) {
+  main {
+    margin: 0px 60px;
+  }
+} */
