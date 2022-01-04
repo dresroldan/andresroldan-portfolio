@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -13,16 +12,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-image: -webkit-linear-gradient(
-    bottom,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.3)
-  ),
-  url(./assets/images/chicago-image.jpeg);
-
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+      bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(./assets/images/chicago-image.jpeg);
+  /* 
+background-position: center center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @font-face {
@@ -89,9 +88,3 @@ background-attachment: fixed;
   font-style: normal;
   font-display: swap;
 }
-
-/* @media only screen and (min-width: 600px) {
-  main {
-    margin: 0px 60px;
-  }
-} */
