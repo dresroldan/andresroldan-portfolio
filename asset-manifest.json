@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.77ce03fd.chunk.css",
-    "main.js": "/static/js/main.3418175b.chunk.js",
-    "main.js.map": "/static/js/main.3418175b.chunk.js.map",
+    "main.css": "/static/css/main.34920d19.chunk.css",
+    "main.js": "/static/js/main.c8c7351d.chunk.js",
+    "main.js.map": "/static/js/main.c8c7351d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba10c9b.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba10c9b.js.map",
-    "static/js/2.e21452a8.chunk.js": "/static/js/2.e21452a8.chunk.js",
-    "static/js/2.e21452a8.chunk.js.map": "/static/js/2.e21452a8.chunk.js.map",
+    "static/js/2.b419609f.chunk.js": "/static/js/2.b419609f.chunk.js",
+    "static/js/2.b419609f.chunk.js.map": "/static/js/2.b419609f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.77ce03fd.chunk.css.map": "/static/css/main.77ce03fd.chunk.css.map",
-    "static/js/2.e21452a8.chunk.js.LICENSE.txt": "/static/js/2.e21452a8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/FLUROSemibold.ffdf0b2d.eot",
-    "static/media/andresfullimage.63a8089b.jpg": "/static/media/andresfullimage.63a8089b.jpg",
-    "static/media/buenviaje-homepage.8863b553.png": "/static/media/buenviaje-homepage.8863b553.png",
-    "static/media/ecommerce.69f15899.png": "/static/media/ecommerce.69f15899.png",
-    "static/media/picniqapp.ba74ddb0.png": "/static/media/picniqapp.ba74ddb0.png",
-    "static/media/weatherdashboard.69373e13.png": "/static/media/weatherdashboard.69373e13.png"
+    "static/css/main.34920d19.chunk.css.map": "/static/css/main.34920d19.chunk.css.map",
+    "static/js/2.b419609f.chunk.js.LICENSE.txt": "/static/js/2.b419609f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/chicago-image.989f1e0e.jpeg",
+    "static/media/andresshot2.86ee8987.jpg": "/static/media/andresshot2.86ee8987.jpg",
+    "static/media/bv-dj.c063d035.png": "/static/media/bv-dj.c063d035.png",
+    "static/media/picnic.529104a4.jpeg": "/static/media/picnic.529104a4.jpeg",
+    "static/media/record-store.66818b26.jpg": "/static/media/record-store.66818b26.jpg",
+    "static/media/weather-dash.fdd8b23e.jpeg": "/static/media/weather-dash.fdd8b23e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ba10c9b.js",
-    "static/js/2.e21452a8.chunk.js",
-    "static/css/main.77ce03fd.chunk.css",
-    "static/js/main.3418175b.chunk.js"
+    "static/js/2.b419609f.chunk.js",
+    "static/css/main.34920d19.chunk.css",
+    "static/js/main.c8c7351d.chunk.js"
   ]
 }
