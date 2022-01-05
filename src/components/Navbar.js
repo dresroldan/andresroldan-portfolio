@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   const navigation = [
-    { link: '/about', text: 'About' },
-    { link: '/projects', text: 'Projects' },
+    { link: '#/about', text: 'About' },
+    { link: '#/projects', text: 'Projects' },
     { link: 'mailto:dresroldan@gmail.com', text: 'Contact' },
   ];
 
