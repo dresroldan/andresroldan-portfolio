@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolioImg from '../assets/images/andresshot2.jpg';
+
 import '../styles/about.css';
 import Button from './Button';
 
@@ -11,7 +11,7 @@ const About = () => {
           <img
             className="profile-image"
             alt="Andres Roldan Portfolio"
-            src={portfolioImg}
+            src="https://res.cloudinary.com/dzrk9qfvp/image/upload/v1641423723/PORTFOLIO/andres-roldan-profile-2.jpg"
           ></img>
         </div>
 

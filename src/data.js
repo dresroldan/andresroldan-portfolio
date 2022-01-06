@@ -1,8 +1,3 @@
-import project1 from './assets/images/record-store.jpg';
-import project2 from './assets/images/bv-dj.png';
-import project3 from './assets/images/picnic.jpeg';
-import project4 from './assets/images/weather-dash.jpeg';
-
 const data = {
   projects: [
     {
@@ -12,7 +7,7 @@ const data = {
         'An online vinyl record shop, allowing users the ability to browse and shop various vinyl records with full description and genre.',
       tools:
         'Utilized: React, Redux, NodeJS, Express, MongoDB, Passport.js, Material-UI',
-      img: project1,
+      img: 'https://res.cloudinary.com/dzrk9qfvp/image/upload/v1641510480/PORTFOLIO/new%20pics/record-store.jpg',
 
       demo: 'https://vinyl-record-store.herokuapp.com/',
       github: 'https://github.com/dresroldan/vinyl-record-ecommerce-store',
@@ -23,7 +18,7 @@ const data = {
       description:
         'A single page website for Buen Viaje Radio, a monthly DJ livestream platform.',
       tools: 'Utilized: Gatsby, React-Bootstrap, Figma, Vimeo',
-      img: project2,
+      img: 'https://res.cloudinary.com/dzrk9qfvp/image/upload/v1641510481/PORTFOLIO/new%20pics/buen-viaje-radio.png',
 
       demo: 'https://www.buenviajeradio.com/',
       github: 'https://github.com/dresroldan/buen_viaje_radio',
@@ -36,7 +31,7 @@ const data = {
         'A single search, location-based application, providing users with nearby parks and restaurants offering takeout/delivery.',
       tools:
         'Utilized: HTML5, CSS, Bootstrap, PureCSS, Javascript, FourSquare, OpenCage Geocoder API, Google Fonts',
-      img: project3,
+      img: 'https://res.cloudinary.com/dzrk9qfvp/image/upload/v1641510480/PORTFOLIO/new%20pics/picnic-outdoors.jpg',
       demo: 'https://jpbrickhouse.github.io/Picniq/',
       github: 'https://github.com/JPBrickhouse/Picniq',
     },
@@ -47,7 +42,7 @@ const data = {
       description:
         'A one-page dashboard that displays weather conditions for multiple cities.',
       tools: 'Utilized: HTML5, CSS, jQuery, Moment.js, Open Weather API',
-      img: project4,
+      img: 'https://res.cloudinary.com/dzrk9qfvp/image/upload/v1641510480/PORTFOLIO/new%20pics/weather-dashboard.jpg',
       demo: 'https://dresroldan.github.io/weather-dashboard/',
       github: 'https://github.com/dresroldan/weather-dashboard',
     },

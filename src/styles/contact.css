@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.3)
     ),
-    url(../assets/images/chicago-image.jpeg);
+    url('https://res.cloudinary.com/dzrk9qfvp/image/upload/v1641423723/PORTFOLIO/chicago-train-rail.jpg');
 
   background-position: center;
   background-repeat: no-repeat;
