@@ -1,6 +1,6 @@
 :root {
-  --primary: white;
-  --secondary: black;
+  --primary: #f6f5f4;
+  --secondary: #1f1f1f;
   --warning: red;
 }
 
@@ -20,7 +20,7 @@
 .btn--primary:hover {
   opacity: 1;
   background-color: var(--primary);
-  color: #363b3d;
+  color: var(--secondary);
   transition: ease-in-out 200ms;
 }
 

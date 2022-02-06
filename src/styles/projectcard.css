@@ -11,14 +11,14 @@
 }
 
 .card__title {
-  color: #363b3d;
+  color: #1f1f1f;
   font-weight: bold;
 }
 
 .card__line {
-  color: 1px solid #4e4e4d;
+  color: 1px solid #1f1f1f;
 }
 
 .card__description {
-  color: #363b3d;
+  color: #1f1f1f;
 }

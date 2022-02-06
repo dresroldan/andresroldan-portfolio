@@ -31,17 +31,6 @@ const About = () => {
             opportunity, or just to chat. Feel free to contact me.
           </div>
 
-          <div className="about-info">
-            <ul className="fa-ul">
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-envelope"></i>
-                </span>
-                dresroldan@gmail.com
-              </li>
-            </ul>
-          </div>
-
           <div className="about-info__buttons">
             <Button
               href="https://docs.google.com/document/d/1LREYfriGyXWa_r_W4FF4d51iLavuKqNZBSKON2j7Q4w/edit"

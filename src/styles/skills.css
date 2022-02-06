@@ -1,5 +1,5 @@
 #skills {
-  background-color: rgb(44, 43, 44, 0.9);
+  background-color: #7a8060;
 }
 
 .skills__wrapper {
@@ -13,7 +13,7 @@
 
 .skills__list {
   text-align: center;
-  color: #ebebeb;
+  color: #f6f5f4;
   padding: 0px 35px;
   max-width: 750px;
 }
@@ -21,7 +21,7 @@
 .skills__title {
   font-weight: bold;
   font-size: 35px;
-  color: #ebebeb;
+  color: #f6f5f4;
   margin-bottom: 30px;
 }
 
