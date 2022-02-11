@@ -1,4 +1,4 @@
-# Portfolio - Andrés Roldán
+# React Portfolio - Andrés Roldán
 
 
 ## Table of contents
@@ -21,7 +21,8 @@ An updated and dynamic portfolio showcasing my resume and recent projects for po
 
 ### Screenshot
 
-<!-- ![](./images/screenshot.png) -->
+![](./src/images/portfolio-screenshot-1.png)
+![](./src/images/portfolio-screenshot-2.png)
 
 ### Links
 
