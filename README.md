@@ -22,7 +22,7 @@ An updated and dynamic portfolio showcasing my resume and recent projects for po
 ### Screenshot
 
 ![](./src/images/portfolio-screenshot-1.png)
-![](./src/images/portfolio-screenshot-2.png)
+
 
 ### Links
 
