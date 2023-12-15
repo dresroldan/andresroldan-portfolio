@@ -33,7 +33,7 @@ const About = () => {
 
           <div className="about-info__buttons">
             <Button
-              href="https://docs.google.com/document/d/1LREYfriGyXWa_r_W4FF4d51iLavuKqNZBSKON2j7Q4w/edit"
+              href="https://docs.google.com/document/d/1o03VhyuU2xJJHW3pOT55MKFe50YAwUWMMDmOjWRnXBE/edit"
               target="_blank"
               buttonStyle="btn--secondary"
             >
